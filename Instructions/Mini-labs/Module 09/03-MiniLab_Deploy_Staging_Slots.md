@@ -11,17 +11,17 @@ The app must be running in the **Standard**, **Premium**, or **Isolated** tier i
 
 1. in the [Azure portal](https://portal.azure.com/), search for and select **App Services** and select your app. 
    
-    ![Search for App Services](./media/web-sites-staged-publishing/search-for-app-services.png)
+    ![Search for App Services]( ../../Linked_Image_Files/search-for-app-services.png)
    
 2. In the left pane, select **Deployment slots** > **Add Slot**.
    
-    ![Add a new deployment slot](./media/web-sites-staged-publishing/QGAddNewDeploymentSlot.png)
+    ![Add a new deployment slot]( ../../Linked_Image_Files/QGAddNewDeploymentSlot.png)
    
    > **NOTE:** If the app isn't already in the **Standard**, **Premium**, or **Isolated** tier, you receive a message that indicates the supported tiers for enabling staged publishing. At this point, you have the option to select **Upgrade** and go to the **Scale** tab of your app before continuing.
 
 3. In the **Add a slot** dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select **Add** to continue.
    
-    ![Configuration source](./media/web-sites-staged-publishing/ConfigurationSource1.png)
+    ![Configuration source]( ../../Linked_Image_Files/ConfigurationSource1.png)
    
     You can clone a configuration from any existing slot. Settings that can be cloned include app settings, connection strings, language framework versions, web sockets, HTTP version, and platform bitness.
 
@@ -29,7 +29,7 @@ The app must be running in the **Standard**, **Premium**, or **Isolated** tier i
 
 5. Select the new deployment slot to open that slot's resource page.
    
-    ![Deployment slot title](./media/web-sites-staged-publishing/StagingTitle.png)
+    ![Deployment slot title]( ../../Linked_Image_Files/StagingTitle.png)
 
     The staging slot has a management page just like any other App Service app. You can change the slot's configuration. To remind you that you're viewing the deployment slot, the app name is shown as **\<app-name>/\<slot-name>**, and the app type is **App Service (Slot)**. You can also see the slot as a separate app in your resource group, with the same designations.
 
@@ -44,12 +44,12 @@ To swap deployment slots:
 
 1. Go to your app's **Deployment slots** page and select **Swap**.
    
-    ![Swap button](./media/web-sites-staged-publishing/SwapButtonBar.png)
+    ![Swap button]( ../../Linked_Image_Files/SwapButtonBar.png)
 
     The **Swap** dialog box shows settings in the selected source and target slots that will be changed.
 
 2. Select the desired **Source** and **Target** slots. Usually, the target is the production slot. Also, select the **Source Changes** and **Target Changes** tabs and verify that the configuration changes are expected. When you're finished, you can swap the slots immediately by selecting **Swap**.
 
-    ![Complete swap](./media/web-sites-staged-publishing/SwapImmediately.png)
+    ![Complete swap]( ../../Linked_Image_Files/SwapImmediately.png)
 
 3. When you're finished, close the dialog box by selecting **Close**.
