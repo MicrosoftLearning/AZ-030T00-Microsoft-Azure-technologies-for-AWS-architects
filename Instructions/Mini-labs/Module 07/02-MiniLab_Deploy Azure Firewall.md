@@ -82,11 +82,11 @@ Next, create subnets for the jump server, and a subnet for the workload servers.
 
 4. For **Name**, type *Workload-SN*.
 
-5. For **Address range**, type *10.0.2.0/2*4.
+5. For **Address range**, type *10.0.2.0/24*, replacing the default.
 
 6. Select **OK**.
 
-Create another subnet named Jump-SN, address range *10.0.3.0/24*.
+Create another subnet named *Jump-SN*, address range *10.0.3.0/24*.
 
 **Create virtual machines**
 
@@ -94,7 +94,7 @@ Now create the jump and workload virtual machines and place them in the appropri
 
 1. On the Azure portal menu or from the **Home** page, select **Create a resource**.
 
-2. Select **Compute** and then select **Windows Server 2016 Datacenter** in the Featured list.
+2. Select **Compute** > Virtual Machine (we will crate a **Windows Server 2016 Datacenter**).
 
 3. Enter these values for the virtual machine:
 
@@ -103,8 +103,10 @@ Now create the jump and workload virtual machines and place them in the appropri
 | Resource group | **Test-FW-RG** |
 | Virtual machine name | **Srv-Jump** |
 | Region | Same as previous |
+| Image | **Windows Server 2016 Datacenter** |
+| Size | **keep default** |
 | Administrator user name | **azureuser** |
-| Password | **Azure123456**! |
+| Password | **Azure123456!** |
 
 
 4. Under **Inbound port rules**, for **Public inbound ports**, select **Allow selected ports**.
