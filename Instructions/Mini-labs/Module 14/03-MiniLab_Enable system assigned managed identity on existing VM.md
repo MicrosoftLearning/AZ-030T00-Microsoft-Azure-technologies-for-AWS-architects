@@ -10,7 +10,7 @@ To enable system-assigned managed identity on a VM that was originally provision
 
 3. Under **System assigned**, **Status**, select **On** and then click **Save**.
 
-   ![Configuration page screenshot](../../Linked_Image_Files/msi-qs-configure-portal-windows-vm/create-windows-vm-portal-configuration-blade.png)  
+   ![Configuration page screenshot](../../Linked_Image_Files/create-windows-vm-portal-configuration-blade.png)  
 
 ## Sign in to Azure VM using managed identity (PowerShell)
 
