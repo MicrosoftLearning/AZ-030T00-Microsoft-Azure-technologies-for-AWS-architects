@@ -60,6 +60,6 @@ This demo is performed in the Azure Portal.
 
 3. Select **Register**.
 
-    ![Shows the screen to register a new application in the Azure portal](../../linked_image_files/new-app-registration-expanded.png)
+    ![Shows the screen to register a new application in the Azure portal](../../Linked_Image_Files/new-app-registration-expanded.png)
 
 Azure AD assigns a unique application (client) ID to your app, and you're taken to your application's **Overview** page. 
