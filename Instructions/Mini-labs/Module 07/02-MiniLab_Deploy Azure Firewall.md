@@ -16,7 +16,7 @@ For this demonstration, you create a simplified single VNet with three subnets f
 
 ![Tutorial network infrastructure](../../Linked_Image_Files/deploy_azure_firewall_image1.png)
 
-In this demonstration, you learn how to:
+In this mini-lab, you learn how to:
 
 * Set up a test network environment
 
@@ -50,21 +50,23 @@ This VNet will contain three subnets.
 
 1. On the Azure portal menu or from the **Home** page, select **Create a resource**.
 
-2. Select **Networking > Virtual network**.
+2. Select **Networking > Virtual network**, then **Create**
 
-3. For Name, type *Test-FW-VN*.
+3. For **Subscription**, select your subscription.
 
-4. For **Address space**, type **10.0.0.0/16**.
+4. For **Resource group**, select the previously created **Test-FW-RG**.
 
-5. For **Subscription**, select your subscription.
+5. Under **Instance Details**, for Name, type *Test-FW-VN*.
 
-6. For **Resource group**, select **Test-FW-RG**.
+6. For **Location**, select the same location that you used previously.
 
-7. For **Location**, select the same location that you used previously.
+7. For **Address space**, type **10.0.0.0/16**.
 
-8. Under **Subnet**, for **Name** type *AzureFirewallSubnet*. The firewall will be in this subnet, and the subnet name must be AzureFirewallSubnet.
+8. Under **Subnet**, select **+ Add subnet**
 
-9. For **Address range**, type *10.0.1.0/26*.
+9. For  **Subnet name** type *AzureFirewallSubnet*. The firewall will be in this subnet, and the subnet name must be AzureFirewallSubnet.
+
+9. For **Subnet Address range**, type *10.0.1.0/26*, then **add**.
 
 10. Accept the other default settings, and then select **Create**.
 
