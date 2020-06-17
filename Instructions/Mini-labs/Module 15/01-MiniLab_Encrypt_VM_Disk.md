@@ -30,6 +30,8 @@ It will take a few minutes for your VM to be deployed. When the deployment is fi
 
 ## Encrypt the virtual machine
 
+>:warning: **Warning:** In order to make sure the encryption secrets don’t cross regional boundaries, Azure Disk Encryption needs the Key Vault and the VMs to be co-located in the same region. Create and use a Key Vault that is in the same region as the VM to be encrypted.
+
 1. When the VM deployment is complete, select **Go to resource**.
 1. On the left-hand sidebar, select **Disks**.
 1. On the Disks screen, select **Encryption**. 
