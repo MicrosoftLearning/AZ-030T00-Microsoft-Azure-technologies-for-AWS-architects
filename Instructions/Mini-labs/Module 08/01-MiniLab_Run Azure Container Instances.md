@@ -76,6 +76,6 @@ aci-demo.eastus.azurecontainer.io Succeeded
 
 If your container is in the **Creating** state, wait a few moments and run the command again until you see the **Succeeded** state.
 
-7. From a browser, navigate to your container's FQDN to see it running. You see this.
+7. From a browser, navigate to your container's FQDN to see it running. You will see this.
 
 ![Screenshot of the sample Node.js container app running in a browser.](../../Linked_Image_Files/demo_Azure_containers_image2.png)
