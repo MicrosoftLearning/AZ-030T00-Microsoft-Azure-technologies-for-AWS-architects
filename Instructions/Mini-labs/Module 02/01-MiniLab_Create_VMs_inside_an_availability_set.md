@@ -23,7 +23,7 @@ Ensure that the following prerequisites are in place prior to this demonstration
 ## Create VMs inside an availability set
 
 VMs must be created within the availability set to make sure they're correctly distributed across the hardware. You can't add an existing VM to an availability set after it's created.
-When you create a VM with az vm create you use the --availability-set parameter to specify the name of the availability set.
+When you create a VM with az vm create, you use the --availability-set parameter to specify the name of the availability set.
 
 1. Create two virtual machines by running the following command:
 
