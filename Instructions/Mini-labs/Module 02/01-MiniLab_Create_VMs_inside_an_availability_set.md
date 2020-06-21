@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Ensure that the following prerequisites are in place prior to this demonstration:
+Ensure that the following prerequisites are in place prior to this mini-lab:
 
 - Set environment variable before hand: **AdminPassword="myStr0ngPW%%"**
 
