@@ -8,7 +8,7 @@ Azure Active Directory (Azure AD) Seamless Single Sign-On (Seamless SSO) automat
 
 ## Prerequisites
 
-Ensure that the following prerequisites are in place prior to this demonstration:
+Ensure that the following prerequisites are in place prior to this mini-lab:
 
 * **Set up your Azure AD Connect server**: If you use Pass-through Authentication as your sign-in method, no additional prerequisite check is required. If you use password hash synchronization as your sign-in method, and if there is a firewall between Azure AD Connect and Azure AD, ensure that:
 
@@ -23,19 +23,19 @@ Ensure that the following prerequisites are in place prior to this demonstration
 	
 	* Contains users you want to enable for Seamless SSO.
 
-## Enable Azure AD Connect.
+## Enable Azure AD Connect
 
 Enable Seamless SSO through [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity).
 
-If you're doing a fresh installation of Azure AD Connect, choose the [custom installation path](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom). At the User sign-in page, select the Enable single sign on option.
+If you're doing a fresh installation of Azure AD Connect, choose the [custom installation path](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom). On the **User sign-in** page, check the **Enable single sign on option**.
 
 ![Azure AD Connect: User sign-in](../../Linked_Image_Files/SSO_demo_image1.png)
 
-If you already have an installation of Azure AD Connect, select the Change user sign-in page in Azure AD Connect, and then select Next.
+If you already have an installation of Azure AD Connect, select the **Change user sign-in** page in Azure AD Connect, and then select **Next**.
 
 ![Azure AD Connect: Change the user sign-in](../../Linked_Image_Files/SSO_demo_image2.png)
 
-Continue through the wizard until you get to the Enable single sign on page. Provide domain administrator credentials for each Active Directory forest that:
+Continue through the wizard until you get to the **Enable single sign on** page. Provide domain administrator credentials for each Active Directory forest that:
 
 * You synchronize to Azure AD through Azure AD Connect.
 
@@ -59,4 +59,4 @@ Follow procedure below to verify that you have enabled Seamless SSO correctly:
 
 >Important
 
-Seamless SSO creates a computer account named AZUREADSSOACC in your on-premises Active Directory (AD) in each AD forest. The AZUREADSSOACC computer account needs to be strongly protected for security reasons. Only Domain Admins should be able to manage the computer account. Ensure that Kerberos delegation on the computer account is disabled, and that no other account in Active Directory has delegation permissions on the AZUREADSSOACC computer account. Store the computer account in an Organization Unit (OU) where they are safe from accidental deletions and where only Domain Admins have access.
+Seamless SSO creates a computer account named AZUREADSSOACC in your on-premises Active Directory (AD) in each AD forest. The AZUREADSSOACC computer account needs to be strongly protected for security reasons. Only Domain Admins should be able to manage the computer account. Ensure that Kerberos delegation on the computer account is disabled and that no other account in Active Directory has delegation permissions on the AZUREADSSOACC computer account. Store the computer account in an Organization Unit (OU) where they are safe from accidental deletions and where only Domain Admins have access.
