@@ -1,6 +1,6 @@
 # Mini-lab: Deploy Kubernetes with AKS
 
-In this demonstration, you will:
+In this mini-lab, you will:
 
 * Create a new resource group.
 
@@ -41,13 +41,13 @@ az group create \
 
 ## Configure networking
 
-We have two network models to choose from when deploying an AKS cluster. The first model is *Kubenet networking*, and the second is *Azure Container Networking Interface (CNI) networking*.
+There are two network models to choose from when deploying an AKS cluster. The first model is *Kubenet networking*, and the second is *Azure Container Networking Interface (CNI) networking*.
 
 ## Kubenet networking
 
 Kubenet networking is the default networking model in Kubernetes. With Kubenet networking, nodes get assigned an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes.
 
-Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network. The source IP address of the traffic is translated to the node's primary IP address and then configured on the nodes. Note, that pods receive an IP address that's "hidden" behind the node IP.
+Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network. The source IP address of the traffic is translated to the node's primary IP address and then configured on the nodes. Note that pods receive an IP address that's "hidden" behind the node IP.
 
 ## Azure Container Networking Interface (CNI) networking
 
@@ -55,7 +55,7 @@ With Azure Container Networking Interface (CNI), the AKS cluster is connected to
 
 Some of the features you'll use require you to deploy the AKS cluster by using the *Azure Container Networking Interface networking* configuration.
 
-Below we create the virtual network for your AKS cluster. We will use this virtual network and specify the networking model when we deploy the cluster.
+Below, you will create the virtual network for your AKS cluster. You will use this virtual network and specify the networking model when you deploy the cluster.
 
 1. First, create a virtual network and subnet. Pods deployed in your cluster will be assigned an IP from this subnet. Run the following command to create the virtual network.
 
@@ -69,7 +69,7 @@ az network vnet create \
     --subnet-prefix 10.240.0.0/16
 ```
 
-2.Next, retrieve, and store the subnet ID in a Bash variable by running the command below.
+2.Next, retrieve and store the subnet ID in a Bash variable by running the command below.
 
 ```Azure CLI
 SUBNET_ID=$(az network vnet subnet show \
@@ -81,9 +81,9 @@ SUBNET_ID=$(az network vnet subnet show \
 
 ## Create the AKS cluster
 
-With the new virtual network in place, you can go ahead and create your new cluster. There are two values you need to know before running the ```az aks create``` command. The first is the version of the latest, non-preview, Kubernetes version available in your selected region, and the second is a unique name for your cluster.
+With the new virtual network in place, you can create your new cluster. There are two values you need to know before running the ```az aks create``` command. The first is the version of the latest, non-preview Kubernetes version available in your selected region, and the second is a unique name for your cluster.
 
-1. To get the latest, non-preview, Kubernetes version you use the ```az aks get-versions``` command. Store the value that returns from the command in a Bash variable named ```VERSION```. Run the command below the retrieve and store the version number.
+1. To get the latest, non-preview Kubernetes version you use the ```az aks get-versions``` command. Store the value that returns from the command in a Bash variable named ```VERSION```. Run the command below the retrieve and store the version number.
 
 ```Azure CLI
 SUBNET_ID=$(az network vnet subnet show \
@@ -135,13 +135,13 @@ az aks get-credentials \
     --name $AKS_CLUSTER_NAME
 ```
 
-2. Let's take a look at what was deployed by listing all the nodes in your cluster. Use the ```kubectl``` get nodes command to list all the nodes.
+2. You can see what was deployed by listing all the nodes in your cluster. Use the ```kubectl``` get nodes command to list all the nodes.
 
 ```Bash
 kubectl get nodes
 ```
 
-You'll see a list of your cluster's nodes. Here's an example.
+You'll see a list of your cluster's nodes. Here's an example:
 
 ```Ouput
 NAME                                STATUS   ROLES   AGE  VERSION
@@ -152,9 +152,9 @@ aks-nodepool1-24503160-vmss000002   Ready    agent   1m   v1.15.7
 
 ## Create a Kubernetes namespace for the application
 
-A namespace in Kubernetes creates a logical isolation boundary. Names of resources must be unique within a namespace but not across namespaces. If you don't specify the namespace when you work with Kubernetes resources, the default namespace is implied.
+A namespace in Kubernetes creates a logical isolation boundary. Names of resources must be unique within a namespace, but not across namespaces. If you don't specify the namespace when you work with Kubernetes resources, the default namespace is implied.
 
-Let's create a namespace for your ratings application.
+Create a namespace for your ratings application.
 
 1. List the current namespaces in the cluster.
 
