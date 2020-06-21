@@ -6,7 +6,7 @@ Azure Multi-Factor Authentication and Conditional Access policies give the flexi
 
 **Prerequisites**
 
-To perform this mini-lab you need the following resources and privileges:
+To perform this demonstration you need the following resources and privileges:
 
 * A working Azure AD tenant with Azure AD Premium or trial license enabled. 
 
