@@ -1,6 +1,6 @@
 # Mini-lab: Create ARM templates by using the Azure Portal
 
-In this Demo you will learn how to create, edit, and deploy an Azure Resource Manager template by using the Azure portal. This demo shows you how to create an Azure Storage account, but you can use the same process to create other Azure resources.
+In this mini-lab you will learn how to create, edit, and deploy an Azure Resource Manager template by using the Azure portal. This mini-lab shows you how to create an Azure Storage account, but you can use the same process to create other Azure resources.
 
 ## Generate a template using the portal
 
