@@ -1,6 +1,6 @@
 # Mini-lab: Secure user sign-in events with Azure Multi-Factor Authentication
 
-Multi-factor authentication (MFA) is a process where a user is prompted during a sign-in event for additional forms of identification. THe user might be prompted to enter a code on their cellphone or to provide a fingerprint scan. Requiring a second form of authentication increases security because the additional factor is not easy for an attacker to obtain or duplicate.
+Multi-factor authentication (MFA) is a process where a user is prompted during a sign-in event for additional forms of identification. The user might be prompted to enter a code on their cellphone or to provide a fingerprint scan. Requiring a second form of authentication increases security because the additional factor is not easy for an attacker to obtain or duplicate.
 
 Azure Multi-Factor Authentication and Conditional Access policies give the flexibility to enable MFA for users during specific sign-in events.
 
