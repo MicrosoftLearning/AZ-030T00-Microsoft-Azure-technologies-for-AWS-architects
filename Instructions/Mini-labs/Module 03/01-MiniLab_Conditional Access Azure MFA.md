@@ -1,27 +1,27 @@
 # Mini-lab: Secure user sign-in events with Azure Multi-Factor Authentication
 
-Multi-factor authentication (MFA) is a process where a user is prompted during a sign-in event for additional forms of identification. This prompt could be to enter a code on their cellphone or to provide a fingerprint scan. When you require a second form of authentication, security is increased as this additional factor isn't something that's easy for an attacker to obtain or duplicate.
+Multi-factor authentication (MFA) is a process where a user is prompted during a sign-in event for additional forms of identification. THe user might be prompted to enter a code on their cellphone or to provide a fingerprint scan. Requiring a second form of authentication increases security because the additional factor is not easy for an attacker to obtain or duplicate.
 
 Azure Multi-Factor Authentication and Conditional Access policies give the flexibility to enable MFA for users during specific sign-in events.
 
 **Prerequisites**
 
-To perform this demonstration you need the following resources and privileges:
+To perform this mini-lab you need the following resources and privileges:
 
 * A working Azure AD tenant with Azure AD Premium or trial license enabled. 
 
 
 * An account with global administrator privileges.
 
-* A non-administrator user with a password you know, such as testuser. You test the end-user Azure Multi-Factor Authentication experience using this account in this demonstration. 
+* A non-administrator user with a password you know, such as testuser. You will test the end-user Azure Multi-Factor Authentication experience using this account in this mini-lab. 
 
 
-* A group that the non-administrator user is a member of, such as MFA-Test-Group. You enable Azure Multi-Factor Authentication for this group in this demonstration. 
+* A group that the non-administrator user is a member of, such as MFA-Test-Group. You enable Azure Multi-Factor Authentication for this group in this mini-lab. 
 
 
 ## Create a Conditional Access Policy
 
-The recommended way to enable and use Azure Multi-Factor Authentication is with Conditional Access policies. Conditional Access lets you create and define policies that react to sign in events and request additional actions before a user is granted access to an application or service.
+The recommended way to enable and use Azure Multi-Factor Authentication is with Conditional Access policies. Conditional Access lets you create and define policies that react to sign-in events and request additional actions before a user is granted access to an application or service.
 
 ![Overview diagram of how Conditional Access works to secure the sign-in process](../../Linked_Image_Files/demo_conditional_access_image1.png)
 
@@ -49,7 +49,7 @@ First, create a Conditional Access policy and assign your test group of users as
 
 ## Configure the conditions for Multi-Factor Authentication
 
-With the Conditional Access policy created and a test group of users assigned, now define the cloud apps or actions that trigger the policy. These cloud apps or actions are the scenarios you decide require additional processing, such as to prompt for MFA. 
+With the Conditional Access policy created and a test group of users assigned, you can now define the cloud apps or actions that trigger the policy. These cloud apps or actions are the scenarios you decide require additional processing, such as to prompt for MFA. 
 
 Configure the Conditional Access policy to require MFA when a user signs in to the Azure portal.
 
@@ -71,7 +71,7 @@ Configure the Conditional Access policy to require MFA when a user signs in to t
 
 2. Check the box for **Require multi-factor authentication**, then choose **Select**.
 
-    Conditional Access policies can be set to Report-only if you want to see how the configuration would impact users, or Off if you don't want to the use policy right now. As a test group of users was targeted for this demonstration, lets enable the policy and then test Azure Multi-Factor Authentication.
+    Conditional Access policies can be set to Report-only if you want to see how the configuration would impact users, or Off if you don't want to use the policy right now. Because a test group of users was targeted for this demonstration, let's enable the policy and then test Azure Multi-Factor Authentication.
 
 1. Set the *Enable policy* to **On**.
 
@@ -79,19 +79,19 @@ Configure the Conditional Access policy to require MFA when a user signs in to t
 
 ## Test Azure Multi-Factor Authentication
 
-To view the Conditional Access policy and Azure Multi-Factor Authentication sign in to a resource that doesn't require MFA as follows:
+To view the Conditional Access policy and Azure Multi-Factor Authentication, sign in to a resource that doesn't require MFA as follows:
 
-1. Open a new browser window in InPrivate or incognito mode and browse to [https://account.activedirectory.windowsazure.com](https://account.activedirectory.windowsazure.com/)
+1. Open a new browser window in InPrivate or incognito mode and browse to [https://account.activedirectory.windowsazure.com](https://account.activedirectory.windowsazure.com/).
 
 2. Sign in with your non-administrator test user, such as testuser. There's no prompt for you to complete MFA.
 
 3. Close the browser window.
 
-    Now sign in to the Azure portal. As the Azure portal was configured in the Conditional Access policy to require additional verification, you get an Azure Multi-Factor Authentication prompt.
+    Now sign in to the Azure portal. Because the Azure portal was configured in the Conditional Access policy to require additional verification, you will get an Azure Multi-Factor Authentication prompt.
 
 1. Open a new browser window in InPrivate or incognito mode and browse to [https://portal.azure.com](https://portal.azure.com/).
 
-2. Sign in with your non-administrator test user, such as testuser. You're required to register for and use Azure Multi-Factor Authentication. Follow the prompts to complete the process and verify you successfully sign in to the Azure portal.
+2. Sign in with your non-administrator test user, such as testuser. You're required to register for and use Azure Multi-Factor Authentication. Follow the prompts to complete the process and verify that you have successfully signed in to the Azure portal.
 
     ![Follow the browser prompts and then on your registered multi-factor authentication prompt to sign in](../../Linked_Image_Files/demo_conditional_access_image4.png)
 
