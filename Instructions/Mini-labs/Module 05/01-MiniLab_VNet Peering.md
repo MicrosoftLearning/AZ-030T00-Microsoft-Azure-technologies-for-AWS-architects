@@ -1,6 +1,6 @@
 # Mini-lab: VNet Peering
 
-**Note**: For this demonstration you will need two virtual networks. 
+**Note**: For this mini-lab you will need two virtual networks. 
 
 **Configure VNet peering on the first virtual network**
 
