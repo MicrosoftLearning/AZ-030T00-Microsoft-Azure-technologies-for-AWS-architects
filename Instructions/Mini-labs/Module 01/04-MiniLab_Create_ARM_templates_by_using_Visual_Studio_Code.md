@@ -1,10 +1,10 @@
 # Mini-lab: Create ARM templates by using Visual Studio Code
 
-In this Demo you will learn how to use Visual Studio Code, and the Azure Resource Manager Tools extension, to create and edit Azure Resource Manager templates. You can create Resource Manager templates in Visual Studio Code without the extension, but the extension provides autocomplete options that simplify template development.
+In this mini-lab you will learn how to use Visual Studio Code and the Azure Resource Manager Tools extension to create and edit Azure Resource Manager templates. You can create Resource Manager templates in Visual Studio Code without the extension, but the extension provides autocomplete options that simplify template development.
 
-It's often easier, and better, to begin building your ARM template based off one of the existing Quickstart templates available on the [Azure Quickstart Templates](https://azure.microsoft.com/resources/templates/) site.
+It's often easier and better to begin building your ARM template based off one of the existing Quickstart templates available on the [Azure Quickstart Templates](https://azure.microsoft.com/resources/templates/) site.
 
-This Demo is based on the [Create a standard storage account](https://azure.microsoft.com/resources/templates/101-storage-account-create/) template.
+This mini-lab is based on the [Create a standard storage account](https://azure.microsoft.com/resources/templates/101-storage-account-create/) template.
 
 ## Prerequisites
 
@@ -73,9 +73,9 @@ Add one more element into the outputs section to show the storage URI.
 
 There are many methods for deploying templates, you will be using the Azure Cloud shell. 
 
-1. Sign in to the [Azure Cloud shell](https://shell.azure.com/)
+1. Sign in to the [Azure Cloud shell](https://shell.azure.com/).
 
-2. Choose the **PowerShell** environment on the upper left corner. Restarting the shell is required when you switch. 
+2. Choose the **PowerShell** environment in the upper left corner. Restarting the shell is required when you switch. 
 
 3. Select **Upload/download** files, and then select **Upload**.
 
