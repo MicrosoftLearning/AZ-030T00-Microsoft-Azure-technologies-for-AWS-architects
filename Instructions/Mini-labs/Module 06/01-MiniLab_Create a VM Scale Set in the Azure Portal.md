@@ -41,9 +41,9 @@ You can deploy a scale set with a Windows Server image or Linux image such as RH
 
 5. Leave the default value of **ScaleSet VMs** for **Orchestrator**.
 
-6. Select a marketplace image for Image. In this example, we have chosen Ubuntu Server 18.04 LTS.
+6. Select a marketplace image for **Image**. In this example, we have chosen Ubuntu Server 18.04 LTS.
 
-7. Enter your desired username, and select which authentication type you prefer.
+7. Enter your desired username and select which authentication type you prefer.
 
     - A **Password** must be at least 12 characters long and meet three out of the four following complexity requirements: one lower case character, one upper case character, one number, and one special character. 
 
@@ -51,7 +51,7 @@ You can deploy a scale set with a Windows Server image or Linux image such as RH
 
     ![Create a virtual machine scale set](../../Linked_Image_Files/create_a_scale_set_image2.png)
 
-8. Select **Next** to move the the other pages. As you explore each tab, review the attributes of the VMs in the Scale Set being created​.
+8. Select **Next** to move the the other pages. As you explore each tab, review the attributes of the VMs in the scale set being created​.
 
 9. Review the**Instance** and **Disks** tabs, but leave the default values in place.
 
