@@ -6,7 +6,7 @@ Azure Multi-Factor Authentication and Conditional Access policies give the flexi
 
 **Prerequisites**
 
-To perform this demonstration you need the following resources and privileges:
+To perform this mini-lab you need the following resources and privileges:
 
 * A working Azure AD tenant with Azure AD Premium or trial license enabled. 
 
@@ -25,7 +25,7 @@ The recommended way to enable and use Azure Multi-Factor Authentication is with 
 
 ![Overview diagram of how Conditional Access works to secure the sign-in process](../../Linked_Image_Files/demo_conditional_access_image1.png)
 
-In this demonstration you will create a basic Conditional Access policy to prompt for MFA when a user signs in to the Azure portal. 
+In this mini-lab you will create a basic Conditional Access policy to prompt for MFA when a user signs in to the Azure portal. 
 
 First, create a Conditional Access policy and assign your test group of users as follows:
 
