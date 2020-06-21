@@ -4,11 +4,11 @@ You can invite anyone to collaborate with your organization by adding them to yo
 
 Guest users can sign in with their own work, school, or social identities.
 
-In this demonstration, you'll add a new guest user to Azure AD and send an invitation.
+In this mini-lab, you'll add a new guest user to Azure AD and send an invitation.
 
 ## Prerequisites
 
-To complete the scenario in this demonstration, you need:
+To complete the scenario in this mini-lab you need:
 
 * A role that allows you to create users in your tenant directory, like the Global Administrator role or any of the limited administrator directory roles.
 
