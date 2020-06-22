@@ -4,7 +4,7 @@ In this demonstration, we will create and work with Azure App Service plans.
 
 **Create an App Service Plan**
 
-1. Sign-in to the [Azure portal](http://portal.azure.com/). 
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/). 
 
 2. Search for and select **App Service Plans**.
 
