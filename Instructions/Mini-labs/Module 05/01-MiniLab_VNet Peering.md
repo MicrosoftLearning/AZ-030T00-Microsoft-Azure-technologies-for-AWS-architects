@@ -4,7 +4,7 @@
 
 **Configure VNet peering on the first virtual network**
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) and select the first virtual network.
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/) and select the first virtual network.
 
 2. Under **SETTINGS**, select **Peerings**.
 
