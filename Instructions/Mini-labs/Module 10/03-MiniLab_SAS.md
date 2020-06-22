@@ -1,12 +1,12 @@
 # Mini-lab: Create a Shared Access Signature (Portal)
 
-In this demonstration, we will create a Shared Access Signature (SAS).
+In this mini-lab, we will create a Shared Access Signature (SAS).
 
->:heavy_check_mark: **Note:** This demonstration requires a storage account, with a blob container, and an uploaded file. 
+>:heavy_check_mark: **Note:** This mini-lab requires a storage account with a blob container and an uploaded file. 
 
 ## Create an SAS at the service level
 
-1. Sign into the Azure portal.
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
 2. Locate the storage account you want to work with and open it. Drill down to your blob container.
 
