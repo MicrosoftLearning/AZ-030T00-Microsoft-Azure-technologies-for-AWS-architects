@@ -1,6 +1,6 @@
 # Mini-lab: Create a storage account in the portal
 
-Every storage account must belong to an Azure resource group. A resource group is a logical container for grouping your Azure services. When you create a storage account, you have the option to either create a new resource group, or use an existing resource group. This article shows how to create a new resource group.
+Every storage account must belong to an Azure resource group. A resource group is a logical container for grouping your Azure services. When you create a storage account, you have the option to either create a new resource group or use an existing resource group. This article shows how to create a new resource group.
 
 A general-purpose v2 storage account provides access to all of the Azure Storage services: blobs, files, queues, tables, and disks. The steps outlined here create a general-purpose v2 storage account, but the steps to create any type of storage account are similar.
 
@@ -12,11 +12,11 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 
 1. Select the subscription in which to create the storage account.
 
-1. Under the **Resource group** field, select **Create new**. Enter a name for your new resource group, as shown in the following image.
+1. Under the **Resource group** field, select **Create new**. Enter a name for your new resource group as shown in the following image.
 
     ![Screenshot showing how to create a resource group in the portal](../../Linked_Image_Files/create-resource-group-for-storage.png)
 
-1. Next, enter a name for your storage account. The name you choose must be unique across Azure. The name also must be between 3 and 24 characters in length, and can include numbers and lowercase letters only.
+1. Next, enter a name for your storage account. The name you choose must be unique across Azure. The name also must be between 3 and 24 characters in length and can include numbers and lowercase letters only.
 
 1. Select a location for your storage account, or use the default location.
 
