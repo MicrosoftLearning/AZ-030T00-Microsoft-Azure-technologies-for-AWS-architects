@@ -1,14 +1,14 @@
 # Mini-lab: Create and Manage A Policy to Enforce Compliance
 
-In this demonstration, you learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
+In this min-lab, you will learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
 
-* Assign a policy to enforce a condition for resources you create in the future
+* Assign a policy to enforce a condition for resources you create in the future.
 
-* Create and assign an initiative definition to track compliance for multiple resources
+* Create and assign an initiative definition to track compliance for multiple resources.
 
-* Resolve a non-compliant or denied resource
+* Resolve a non-compliant or denied resource.
 
-* Implement a new policy across an organization
+* Implement a new policy across an organization.
 
 ## Assign a policy
 
@@ -28,7 +28,7 @@ The first step in enforcing compliance with Azure Policy is to assign a policy d
 
 4. On the **Assign Policy** page and **Basics** tab, select the **Scope** by selecting the ellipsis and selecting either a management group or subscription. Optionally, select a resource group. A scope determines what resources or grouping of resources the policy assignment gets enforced on. Then select **Select** at the bottom of the **Scope** page.
 
-5. Resources can be excluded based on the Scope. Exclusions start at one level lower than the level of the **Scope. Exclusions** are optional, so leave it blank for now.
+5. Resources can be excluded based on the Scope. Exclusions start at one level lower than the level of the **Scope**. **Exclusions** are optional, so leave it blank for now.
 
 6. Select the **Policy definition** ellipsis to open the list of available definitions. You can filter the policy definition **Type** to *Built-in* to view all and read their descriptions.
 
