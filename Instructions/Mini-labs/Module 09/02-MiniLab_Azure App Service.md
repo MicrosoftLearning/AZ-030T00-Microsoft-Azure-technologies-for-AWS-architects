@@ -6,7 +6,7 @@ In this demonstration, you will use the Azure portal to create a web app and an 
 
 1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
-1. On the Azure portal menu or from the **Home** page, select **App Services**. 
+1. On the Azure portal menu, or from the **Home** page, select **App Services**. 
 
     ![Graphic showing Home screen and App Services icon.](../../Linked_Image_Files/app_service_home_1.png)
 
@@ -36,7 +36,7 @@ In this demonstration, you will use the Azure portal to create a web app and an 
 
 > **Note**: It can take a few seconds to get your web app created and ready for your use.
 
-The portal will display the deployment page, where you can view the status of your deployment. 
+The portal will display the deployment page where you can view the status of your deployment. 
 
 ## Preview web app
 
@@ -44,7 +44,7 @@ Once the app is ready, navigate to the new app in the Azure portal:
 
 1. On the Azure portal menu or from the **Home page**, select **All resources**.
 
-2. Select the App Service for your web app from the list. Make sure to select the App Service, and not the App Service plan.
+2. Select the App Service for your web app from the list. Make sure to select the App Service and not the App Service plan.
 
     ![Graphic App Services listing.](../../Linked_Image_Files/app_service_create_app_5.png)
 
