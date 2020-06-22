@@ -1,15 +1,15 @@
 # Mini-lab: Create and encrypt a Windows virtual machine with the Azure portal
 
-Azure virtual machines (VMs) can be created through the Azure portal. The Azure portal is a browser-based user interface to create VMs and their associated resources. In this quickstart you will use the Azure portal to deploy a Windows virtual machine (VM) running Ubuntu 18.04 LTS, create a key vault for the storage of encryption keys, and encrypt the VM.
+Azure virtual machines (VMs) can be created through the Azure portal. The Azure portal is a browser-based user interface to create VMs and their associated resources. In this mini-lab, you will use the Azure portal to deploy a Windows virtual machine (VM) running Ubuntu 18.04 LTS, create a key vault for the storage of encryption keys, and encrypt the VM.
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
 
 ## Create a virtual machine
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 1. Choose **Create a resource** in the upper left corner of the Azure portal.
-1. In the New page, under Popular, select **Windows Server 2016 Datacenter**.
-1. In the **Basics** tab, under **Project details**, make sure the correct subscription is selected and then choose to **Create new resource group**. Enter *myResourceGroup* as the name.
+1. On the New page, under Popular, select **Windows Server 2016 Datacenter**.
+1. On the **Basics** tab, under **Project details**, make sure the correct subscription is selected and then choose to **Create new resource group**. Enter *myResourceGroup* as the name.
 1. For **Virtual machine name**, enter *MyVM*.
 1. For **Region**, select your region (e.g., *East US*).
 1. Make sure the **Size** is *Standard D2s v3*.
@@ -23,7 +23,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
     ![ResourceGroup creation screen](../../Linked_Image_Files/portal-qs-vm-creation-storage.png)
 
-1. Click **Review + Create**.
+1. Select **Review + Create**.
 1. On the **Create a virtual machine** page, you can see the details about the VM you are about to create. When you are ready, select **Create**.
 
 It will take a few minutes for your VM to be deployed. When the deployment is finished, move on to the next section.
@@ -45,7 +45,7 @@ It will take a few minutes for your VM to be deployed. When the deployment is fi
     ![disks and encryption selection](../../Linked_Image_Files/portal-qs-keyvault-create.png)
 
 1. On the **Create key vault** screen, ensure that the Resource Group is the same as the one you used to create the VM.
-1. Give your key vault a name.  Every key vault across Azure must have an unique name.
+1. Give your key vault a name. Every key vault across Azure must have an unique name.
 1. On the **Access Policies** tab, check the **Azure Disk Encryption for volume encryption** box.
 
     ![disks and encryption selection](../../Linked_Image_Files/portal-qs-keyvault-enable.png)
@@ -53,7 +53,7 @@ It will take a few minutes for your VM to be deployed. When the deployment is fi
 1. Select **Review + create**.  
 1. After the key vault has passed validation, select **Create**. This will return you to the **Select key from Azure Key Vault** screen.
 1. Leave the **Key** field blank and choose **Select**.
-1. At the top of the encryption screen, click **Save**. A popup will warn you that the VM will reboot. Click **Yes**.
+1. At the top of the encryption screen, select **Save**. A popup will warn you that the VM will reboot. select **Yes**.
 
 ## Clean up resources
 
