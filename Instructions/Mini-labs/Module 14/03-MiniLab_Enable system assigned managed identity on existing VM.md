@@ -4,7 +4,7 @@
 
 To enable system-assigned managed identity on a VM that was originally provisioned without it, your account needs the [Virtual Machine Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor) role assignment. No additional Azure AD directory role assignments are required.
 
-1. Sign in to the [Azure portal](https://portal.azure.com) using an account associated with the Azure subscription that contains the VM.
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/) using an account associated with the Azure subscription that contains the VM.
 
 2. Navigate to the desired Virtual Machine and select **Identity**.
 
@@ -16,15 +16,15 @@ To enable system-assigned managed identity on a VM that was originally provision
 
 Traditionally, in order to access secured resources under its own identity, a script client would need to:
 
-- be registered and consented with Azure AD as a confidential/web client application.
+- Be registered and consented with Azure AD as a confidential/web client application.
 
-- sign in under its service principal, using the app's credentials (which are likely embedded in the script).
+- Sign in under its service principal using the app's credentials (which are likely embedded in the script).
 
 With managed identities for Azure resources, your script client no longer needs to do either, as it can sign in under the managed identities for Azure resources service principal.
 
 The following script demonstrates how to:
 
-1. Sign in to Azure AD under the VM's managed identity for Azure resources service principal  
+1. Sign in to Azure AD under the VM's managed identity for Azure resources service principal.  
 
 2. Call an Azure Resource Manager cmdlet to get information about the VM. PowerShell takes care of managing token use for you automatically.  
 
