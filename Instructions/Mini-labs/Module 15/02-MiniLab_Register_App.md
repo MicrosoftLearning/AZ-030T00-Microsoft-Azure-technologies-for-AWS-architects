@@ -1,16 +1,16 @@
 # Mini-lab: Register an app with the Microsoft Identity platform
 
-In this demo you'll learn how to perform the following actions:
+In this mini-lab you'll learn how to perform the following actions:
 
 * Register an application with the Microsoft identity platform
 
 ## Prerequisites
 
-This demo is performed in the Azure Portal.
+This mini-lab is performed in the Azure Portal.
 
 ### Login to the Azure Portal
 
-1.  Login to the portal: [https://portal.azure.com](https://portal.azure.com) 
+1.  Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/). 
 
 
 ## Register a new application
