@@ -1,38 +1,38 @@
 # Mini-lab: Back up files and folders
 
-In this demonstration, we will step through the process to backup and restore files and folders from Windows to Azure.
+In this mini-lab, we will step through the process to backup and restore files and folders from Windows to Azure.
 
-> **Note:** This demonstration assumes you have not used the Azure Backup Agent before and need a complete installation. 
+> **Note:** This mini-lab assumes you have not used the Azure Backup Agent before and need a complete installation. 
 
 ## Create a Recovery Services vault
 
-1. In the Azure portal, type Recovery Services and click **Recovery Services vaults**.
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/). In the portal, type Recovery Services and select **Recovery Services vaults**.
 
-2. Click **Add**.
+2. Select **Add**.
 
 3. Provide a **Name**, **Subscription**, **Resource group**, and **Location**. 
 
-4. Click **Create**. It can take several minutes for the Recovery Services vault to be created. Monitor the status notifications in the upper right-hand area of the portal. Once your vault is created, it appears in the list of Recovery Services vaults. 
+4. Select **Create**. It can take several minutes for the Recovery Services vault to be created. Monitor the status notifications in the upper-right area of the portal. Once your vault is created, it appears in the list of Recovery Services vaults. 
 
-5. If after several minutes you don't observe your vault, click **Refresh**.
+5. If after several minutes you don't observe your vault, select **Refresh**.
 
 ## Configure the vault
 
-1. For your recovery services vault, click **Backup**.
+1. For your recovery services vault, select **Backup**.
 
 2. From the **Where is your workload running?** drop-down menu, select **On-premises**.
 
 3. From the **What do you want to backup?** menu, select **Files and folders**. Notice your other choices.
 
-4. Click **Prepare infrastructure**. 
+4. Select **Prepare infrastructure**. 
 
-5. Click **Download Agent for Windows Server or Windows Client**. A pop-up menu prompts you to run or **save** MARSAgentInstaller.exe.
+5. Select **Download Agent for Windows Server or Windows Client**. A pop-up menu prompts you to run or **save** MARSAgentInstaller.exe.
 
 6. By default, the MARSagentinstaller.exe file is saved to your **Downloads** folder. When the installer completes, a pop-up asking if you want to run the installer, or open the folder. You **don't need** to install the agent yet. You can install the agent after you have downloaded the vault credentials.
 
 7. Return to your recovery services vault, check the box **Already downloaded or using the latest recovery services agent**.
 
-8. Click **Download**. After the vault credentials finish downloading, a pop-up asking if you want to open or **save** the credentials. Click **Save**. If you accidentally click **Open**, let the dialog that attempts to open the vault credentials, fail. You cannot open the vault credentials. Proceed to the next step. The vault credentials are in the **Downloads** folder.
+8. Select **Download**. After the vault credentials finish downloading, a pop-up asking if you want to open or **save** the credentials. Select **Save**. If you accidentally select **Open**, let the dialog that attempts to open the vault credentials fail. You cannot open the vault credentials. Proceed to the next step. The vault credentials are in the **Downloads** folder.
 
 > **Note**: You must have the latest version of the MARS agent. Versions of the agent below 2.0.9083.0 must be upgraded by uninstalling and reinstalling the agent. 
 
@@ -61,9 +61,9 @@ installer provides a series of messages as it extracts, installs, and registers 
 
 1. Open the **Microsoft Azure Recovery Services** agent. You can find it by searching your machine for Microsoft Azure Recovery Services. 
 
-2. If this is the first time you are using the agent there will be a **Warning** to create a backup policy. The backup policy is the schedule when recovery points are taken, and the length of time the recovery points are retained. 
+2. If this is the first time you are using the agent, there will be a **Warning** to create a backup policy. The backup policy is the schedule when recovery points are taken, and the length of time the recovery points are retained. 
 
-3. Click **Schedule Backup** to launch the Schedule Backup Wizard.
+3. Select **Schedule Backup** to launch the Schedule Backup Wizard.
 
     * Read the **Getting Started** page.
 
@@ -79,9 +79,9 @@ installer provides a series of messages as it extracts, installs, and registers 
 
 ## Backup files and folders
 
-1. Click **Back Up Now** to complete the initial sending over the network.
+1. Select **Back Up Now** to complete the initial sending over the network.
 
-2. In the wizard, confirm your settings, and then click **Back Up**.
+2. In the wizard, confirm your settings, then select **Back Up**.
 
 3. You may **Close** the wizard. It will continue to run in the background. 
 
@@ -91,9 +91,9 @@ installer provides a series of messages as it extracts, installs, and registers 
 
 ## Explore the recover settings
 
-1. Click **Recover data**.
+1. Select **Recover data**.
 
-2. Walkthrough the wizard making selections based on your backup settings. 
+2. Walk through the wizard making selections based on your backup settings. 
 
 3. Notice your choices to restore from the current server or another server. 
 
@@ -107,7 +107,7 @@ installer provides a series of messages as it extracts, installs, and registers 
 
 ## Explore the backup properties
 
-1. Click **Change Properties**.
+1. Select **Change Properties**.
 
 2. Explore the different tabs.
 
@@ -115,15 +115,15 @@ installer provides a series of messages as it extracts, installs, and registers 
 
 4. On the **Proxy Configuration** tab you can add proxy information.
 
-5. On the **Throttling** tab you can enable internet bandwidth usage throttling. Throttling controls how network bandwidth is used during data transfer. This control can be helpful if you need to back up data during work hours but do not want the backup process to interfere with other Internet traffic. Throttling applies to back up and restore activities.
+5. On the **Throttling** tab you can enable internet bandwidth usage throttling. Throttling controls how network bandwidth is used during data transfer. This control can be helpful if you need to back up data during work hours but do not want the backup process to interfere with other Internet traffic. Throttling applies to backup and restore activities.
 
 ## Delete your backup schedule
 
-1. Click **Schedule Backup**.
+1. Select **Schedule Backup**.
 
 2. In the wizard, select **Stop using this backup schedule and delete all the stored backups**.
 
-3. Verify your choices and click **Finish**.
+3. Verify your choices and select **Finish**.
 
 4. You will be prompted for a recovery services vault security pin.
 
