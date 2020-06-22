@@ -9,7 +9,7 @@ Deploying your application to a non-production slot has the following benefits:
 ## Add a slot
 The app must be running in the **Standard**, **Premium**, or **Isolated** tier in order for you to enable multiple deployment slots.
 
-1. in the [Azure portal](https://portal.azure.com/), search for and select **App Services** and select your app. 
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/). Search for and select **App Services** and select your app. 
    
     ![Search for App Services](../../Linked_Image_Files/search-for-app-services.png)
    
@@ -31,7 +31,7 @@ The app must be running in the **Standard**, **Premium**, or **Isolated** tier i
    
     ![Deployment slot title](../../Linked_Image_Files/staging-title.png)
 
-    The staging slot has a management page just like any other App Service app. You can change the slot's configuration. To remind you that you're viewing the deployment slot, the app name is shown as **\<app-name>/\<slot-name>**, and the app type is **App Service (Slot)**. You can also see the slot as a separate app in your resource group, with the same designations.
+    The staging slot has a management page just like any other App Service app. You can change the slot's configuration. To remind you that you're viewing the deployment slot, the app name is shown as **\<app-name>/\<slot-name>**, and the app type is **App Service (Slot)**. You can also see the slot as a separate app in your resource group with the same designations.
 
 The new deployment slot has no content, even if you clone the settings from a different slot. For example, you can publish to this slot with Git. You can deploy to the slot from a different repository branch or a different repository.
 
