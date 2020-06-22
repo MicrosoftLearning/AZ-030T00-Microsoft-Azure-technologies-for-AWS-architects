@@ -1,10 +1,10 @@
 # Mini-lab: Monitor costs with Azure Monitor
 
-For this demo, you must have previously-running and currently-running services during the billing period. Data may not be available if it is less than 24 hours since resources were deployed.
+For this mini-lab, you must have previously-running and currently-running services during the billing period. Data may not be available if it is less than 24 hours since resources were deployed.
 
 ## Navigate to Cost Analysis
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
 1. Search for **Cost Management** and select **Cost Management + Billing** from the list of results.
 
