@@ -1,14 +1,14 @@
 # Mini-lab:Create an Azure SQL Database Managed Instance
 
-This demonstration walks you through how to create an Azure SQL Database managed instance in Azure portal.
+This mini-lab walks you through how to create an Azure SQL Database managed instance in Azure portal.
 
-Sign in to [Azure portal](https://portal.azure.com/).
+Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
 ## Create a managed instance
 
 The following steps show you how to create a managed instance:
 
-1. Select **Azure SQL** on the left menu of Azure portal. If **Azure SQL** is not in the list, select **All services**, and then enter *Azure SQL* in the search box.
+1. Select **Azure SQL** on the left menu of Azure portal. If **Azure SQL** is not in the list, select **All services** and then enter *Azure SQL* in the search box.
 
 2. Select **+Add** to open the **Select SQL deployment option** page. You can view additional information about an Azure SQL Database managed instance by selecting **Show details** on the **Managed instances** tile.
 
@@ -75,7 +75,7 @@ Use the table below as a reference for information required at this tab.
 
 ## Review + create
 
-5. Select **Review + create** tab to review your choices before you create the managed instance.
+5. Select the **Review + create** tab to review your choices before you create the managed instance.
 
 ![Tab for reviewing and creating a managed instance](../../Linked_Image_Files/demo_managed_sql_image6.png)
 
