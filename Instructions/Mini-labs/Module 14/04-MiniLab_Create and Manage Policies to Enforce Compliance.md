@@ -2,13 +2,13 @@
 
 In this min-lab, you will learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
 
-* Assign a policy to enforce a condition for resources you create in the future.
+* Assign a policy to enforce a condition for resources you create in the future
 
-* Create and assign an initiative definition to track compliance for multiple resources.
+* Create and assign an initiative definition to track compliance for multiple resources
 
-* Resolve a non-compliant or denied resource.
+* Resolve a non-compliant or denied resource
 
-* Implement a new policy across an organization.
+* Implement a new policy across an organization
 
 ## Assign a policy
 
