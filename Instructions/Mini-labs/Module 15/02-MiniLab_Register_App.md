@@ -42,18 +42,10 @@ This mini-lab is performed in the Azure Portal.
     </tbody>
     </table>
 
-    <!--
-    Field | Value 
-    - | - 
-    **Name** | `az204appregdemo` | Enter a meaningful application name that will be displayed to users of the app.
-    **Supported account types** | Select **Accounts in this organizational directory** 
-    **Redirect URI (optional)** | Select **Public client/native (mobile & desktop)** and enter `http://localhost` in the box to the right.
-    -->
-
     Below are more details on the **Supported account types**.
 
-    Account type | Scope
-    - | -
+   | Account type | Scope |
+   | - | - |
     **Accounts in this organizational directory only** | This option maps to Azure AD only single-tenant (only people in your Azure AD directory).
     **Accounts in any organizational directory** | This option maps to an Azure AD only multi-tenant. Select this option if you would like to target anyone from any Azure AD directory.
     **Accounts in any organizational directory and personal Microsoft accounts** | This option maps to Azure AD multi-tenant and personal Microsoft accounts. 
