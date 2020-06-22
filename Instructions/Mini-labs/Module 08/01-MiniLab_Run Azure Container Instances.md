@@ -20,7 +20,7 @@ For scenarios where you need full container orchestration, including service dis
 
 ## Create a container
 
-1. Sign into the [Azure portal ](https://portal.azure.com/) with your Azure subscription.
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/) with your Azure subscription.
 
 2. Open the Azure Cloud Shell from the Azure portal using the Cloud Shell icon.
 
