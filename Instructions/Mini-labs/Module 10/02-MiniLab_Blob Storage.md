@@ -1,8 +1,8 @@
 # Mini-lab: Blob Storage
 
-In this demonstration, you will explore blob storage.
+In this mini-lab, you will explore blob storage.
 
-**Note**: This demonstration requires a storage account.
+**Note**: This mini-lab requires a storage account.
 
 ## Create a container
 
@@ -32,7 +32,7 @@ In this demonstration, you will explore blob storage.
 
 6. Notice the default **Authentication type** type is SAS.
 
-4. Browse your local file system to find a file to upload as a block blob, and select **Upload**.
+4. Browse your local file system to find a file to upload as a block blob and select **Upload**.
 
 5. Upload as many blobs as you like in this way. You'll observe that the new blobs are now listed within the container.
 
