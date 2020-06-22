@@ -4,7 +4,7 @@ In this demonstration, you will use the Azure portal to create a web app and an 
 
 ## Create App Service and web app
 
-1. Sign into the [Azure portal ](https://portal.azure.com/learn.docs.microsoft.com).
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
 1. On the Azure portal menu or from the **Home** page, select **App Services**. 
 
