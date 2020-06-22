@@ -1,18 +1,18 @@
 # Mini-lab: Create an Azure SQL Database single database
 
-In this demonstration, you use the Azure portal to create an Azure SQL Database single database. You then query the database using Query editor in the Azure portal.
+In this mini-lab, you will use the Azure portal to create an Azure SQL Database single database. You will then query the database using Query editor in the Azure portal.
 
-A single database is the quickest and simplest deployment option for Azure SQL Database. You manage a single database within a SQL Database server, which is inside an Azure resource group in a specified Azure region. In this demonstration, you create a new resource group and SQL server for the new database.
+A single database is the quickest and simplest deployment option for Azure SQL Database. You can manage a single database within a SQL Database server, which is inside an Azure resource group in a specified Azure region. In this mini-lab, you will create a new resource group and SQL server for the new database.
 
-You can create a single database in the *provisioned* or *serverless* compute tier. A provisioned database is pre-allocated a fixed amount of compute resources, including CPU and memory, and uses one of two purchasing models. This demonstration creates a provisioned database using the vCore-based purchasing model.
+You can create a single database in the *provisioned* or *serverless* compute tier. A provisioned database is pre-allocated a fixed amount of compute resources, including CPU and memory, and uses one of two purchasing models. This mini-lab creates a provisioned database using the vCore-based purchasing model.
 
 ## Create a single database
 
-In this step, you create an Azure SQL Database server and a single database that uses AdventureWorksLT sample data. You can create the database by using Azure portal menus and screens, or by using an Azure CLI or PowerShell script in the Azure Cloud Shell.
+In this step, you will create an Azure SQL Database server and a single database that uses AdventureWorksLT sample data. You can create the database by using Azure portal menus and screens, or by using an Azure CLI or PowerShell script in the Azure Cloud Shell.
 
 To create a resource group, SQL server, and single database in the Azure portal:
 
-1. Sign in to the [portal](https://portal.azure.com/).
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
 2. From the Search bar, search for and select **Azure SQL**.
 
@@ -32,9 +32,9 @@ To create a resource group, SQL server, and single database in the Azure portal:
 
 8. Under **Database details**, for **Database name** enter mySampleDatabase.
 
-9. For **Server**, select **Create new**, and fill out the New server form as follows:
+9. For **Server**, select **Create new** and fill out the New server form as follows:
 
-- **Server name**: Enter *mysqlserver*, and some characters for uniqueness.
+- **Server name**: Enter *mysqlserver* and some characters for uniqueness.
 
 - **Server admin login**: Enter *azureuser*.
 
@@ -86,7 +86,7 @@ After making any changes, select **Apply**.
 
 Once your database is created, you can use the built-in Query editor in the Azure portal to connect to the database and query the data.
 
-1. In the portal, search for and select **SQL databases**, and then select your database from the list.
+1. In the portal, search for and select **SQL databases** and then select your database from the list.
 
 2. On the **SQL Database** page for your database, select **Query editor** in the left menu.
 
@@ -111,7 +111,7 @@ ON pc.productcategoryid = p.productcategoryid;
 
 ![Query editor results](../../Linked_Image_Files/demo_sql_image8.png)
 
-6. Close the **Query editor** page, and select **OK** when prompted to discard your unsaved edits.
+6. Close the **Query editor** page and select **OK** when prompted to discard your unsaved edits.
 
  
 
