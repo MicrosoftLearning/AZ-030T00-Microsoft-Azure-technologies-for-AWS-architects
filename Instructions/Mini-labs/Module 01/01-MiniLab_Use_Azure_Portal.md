@@ -52,7 +52,7 @@ Finally, there are a variety of management and programming tools included in the
 
 ## Directory and subscription
 
-![Icon representing the subscription panel](../../Linked_Image_Files/5-subscription-icon.png]
+![Icon representing the subscription panel](../../Linked_Image_Files/5-subscription-icon.png)
 
 1. Select the **Directory + Subscription** (book and filter) icon to show the **Directory + subscription** pane.
 
@@ -66,7 +66,7 @@ Finally, there are a variety of management and programming tools included in the
 
 1. On the icon bar menu bar, select the **Notifications** (bell) icon. This window lists any pending notifications.
 
-    ![Screenshot of notifications window](../../Linked_Image_Files/5-notifications-pane.png]
+    ![Screenshot of notifications window](../../Linked_Image_Files/5-notifications-pane.png)
 
 1. If any notifications appear, hover your mouse over one of them. Select the **X** that appears in that notification to dismiss it.
 
@@ -76,7 +76,7 @@ Finally, there are a variety of management and programming tools included in the
 
 ## Settings
 
-![Icon representing the settings panel](../../Linked_Image_Files/5-settings-icon.png]
+![Icon representing the settings panel](../../Linked_Image_Files/5-settings-icon.png)
 
 1. Select the **Settings** (cog) icon to open the **Portal settings** pane, showing the **General** settings by default.
 
@@ -94,7 +94,7 @@ Finally, there are a variety of management and programming tools included in the
 
 ## Help pane
 
-![Icon representing the help panel](../../Linked_Image_Files/5-help-icon.png]
+![Icon representing the help panel](../../Linked_Image_Files/5-help-icon.png)
 
 1. Select the **Help** (?) icon to show the **Help** pane.
 
@@ -110,7 +110,7 @@ Finally, there are a variety of management and programming tools included in the
 
 1. You can view the status of your support requests by selecting on **All support requests**.
 
-Support requests can only be created using an active paid subscription.
+>:heavy_check_mark: **Note:** Support requests can only be created using an active paid subscription.
 
 ### What's new and other information
 
@@ -134,7 +134,7 @@ Support requests can only be created using an active paid subscription.
 
 ## Feedback pane
 
-![Icon representing the feedback panel](../../Linked_Image_Files/5-feedback-icon.png]
+![Icon representing the feedback panel](../../Linked_Image_Files/5-feedback-icon.png)
 
 1. Select the **Feedback** (smiley face) icon to open the **Send us feedback** pane.
 
@@ -162,7 +162,7 @@ Support requests can only be created using an active paid subscription.
 
 1. Select "..." then **View my bill** to navigate to the **Cost Management + Billing - Invoices** page, which helps you analyze where Azure is generating costs.
 
-1. If you're using your own account and not sandbox, you can select a subscription from the drop-down list.
+1. Select a subscription from the drop-down list.
 
 1. Select a billing period.
 
@@ -170,6 +170,4 @@ Support requests can only be created using an active paid subscription.
 
 1. Select the **X** in the top right-hand corner to close the **Costs by service** pane.
 
-1. Select the **X** in the top right-hand corner to close the **Cost Management + Billing - Invoices** page.
-
-You should now be back on the home page.
+1. Select the **X** in the top right-hand corner to close the **Cost Management + Billing - Invoices** page and return to the home page.
