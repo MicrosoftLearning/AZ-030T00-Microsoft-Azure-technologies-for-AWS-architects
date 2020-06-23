@@ -1,6 +1,6 @@
 # Mini-lab: Run Azure Container Instances
 
-In this demonstration you create a container in Azure and expose it to the Internet with a fully qualified domain name (FQDN).
+In this lab you create a container in Azure and expose it to the Internet with a fully qualified domain name (FQDN).
 
 Azure Container Instances is useful for scenarios that can operate in isolated containers, including simple applications, task automation, and build jobs. Here are some of the benefits:
 
