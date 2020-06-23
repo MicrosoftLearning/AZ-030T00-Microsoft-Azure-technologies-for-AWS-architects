@@ -1,4 +1,4 @@
-# Mini-lab: Create and Manage A Policy to Enforce Compliance
+# Mini-lab: Create and manage a policy to enforce compliance
 
 In this min-lab, you will learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
 
