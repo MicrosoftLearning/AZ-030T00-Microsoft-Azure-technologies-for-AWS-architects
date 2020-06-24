@@ -1,12 +1,15 @@
-# INF99X: Sample Course
+# AZ-030: Microsoft Azure technologies for AWS architects
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+
+## Notes on AZ-020 Course & Labs
+
+This course, AZ-030: Microsoft Azure technologies for AWS architects, is a subset of the AZ-303 course materials, adapted to fit a 4 day course for experienced AWS architects. The course uses mini-labs (located in folder /Instructions/Mini-labs) which give students short and frequent hands on interaction with the Azure Portal and Cloud Shell environments.
+
+To promote further learning students are also encouraged to complete the longer [labs for AZ-303](https://github.com/MicrosoftLearning/AZ-303-Microsoft-Azure-Architect-Technologies), which run 60 to 120 minutes each, after completion of this course.
 
 ## What are we doing?
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the mini-lab instructions on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
 
 - We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
 
