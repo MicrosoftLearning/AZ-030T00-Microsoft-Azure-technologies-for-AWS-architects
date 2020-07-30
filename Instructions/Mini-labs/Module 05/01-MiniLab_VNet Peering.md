@@ -1,14 +1,35 @@
 # Mini-lab: VNet Peering
 
-**Note**: For this mini-lab you will need two virtual networks. 
+> **Note**: For this mini-lab you will need two virtual networks.
 
-**Configure VNet peering on the first virtual network**
+## Create virtual networks
+1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/)
 
-1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/) and select the first virtual network.
+1. Search "Virtual network" on the searchbox on top of the page anc click on the resource of that name. A new view will appear
 
-2. Under **SETTINGS**, select **Peerings**.
+1. On this new view, click the `+ Add` button
 
-3. Select **+ Add**.
+1. Select your subscription and the resource group on wich you'd like your virtual networks to reside
+    * If you don't have a resource group, click on "Create new" and give it any mane you like
+
+1. Give your virtual network a name (for example: "`virtualnetwork1`"), and select any region you like
+
+1. Click on `Review + Create`
+
+1. Wait a few seconds
+
+1. Click on `Create`
+
+1. Repeat this process in order to have 2 virtual networks available
+
+
+## Configure VNet peering on the first virtual network
+
+1. Select the first virtual network. A right pane will appear
+
+1. On these right pane, on the search bar right under the virtual network's name, write "**Peerings**" and click on the option that appears.
+
+1. Select **+ Add**. This will take you to a new view
 
     + Provide a **name** for the first virtual network peering. For example, VNet1toVNet2. 
 
@@ -26,11 +47,11 @@
 
     + Click **OK** to save your settings.
 
-**Configure a VPN gateway**
+## Configure a VPN gateway
 
 1. In the **Azure portal**, search for **virtual network gateways**.
 
-2. Select **+ Add**.
+1. Select **+ Add**.
 
     + Provide a **name** for your virtual network gateway. For example, VNet1Gateway.
 
@@ -44,40 +65,42 @@
 
     + Click **Create**. 
 
-3. Monitor the notifications to ensure the gateway is successfully created.
+1. Wait a few moments until the gateway is successfully created (you'll see a notification when this happens)
 
-**Allow gateway transit**
+### Allow gateway transit
 
 1. In the **Azure portal**, return to your first virtual network. 
 
-2. On the **Overview** blade, notice the new **Connected device** for your VPN gateway.
+1. On the **Overview** blade, notice the new **Connected device** for your VPN gateway.
 
-3. Select the gateway and notice you can perform a health check and review access statistics. 
+1. Select the gateway and notice you can perform a health check and review access statistics. 
 
-4. Return to the previous page and under **SETTINGS**, select **Peerings**.
+1. Return to the previous page (clickng on the `X` on the top right) and on the search bar right under the virtual network's name, write "**Peerings**" again and click on the option that appears.
 
-    + Select the peering and enable **Allow gateway transit**. Notice the previous error has been resolved. 
+    + Select the peering 
+    
+    + Enable **Allow gateway transit**. Notice the previous error has been resolved. 
 
     + Notice after making this selection, **Use remote gateways** is disabled. 
 
-5. **Save** your changes. 
+1. **Save** your changes (clicking on the save icon right under the title with the name of your peering)
 
-**Confirm VNet peering on the second virtual network**
+## Confirm VNet peering on the second virtual network
 
 1. In the **Azure portal**, select the second virtual network. 
 
-2. Under **SETTINGS**, select **Peerings**.
+1. On the search bar right under the virtual network's name, write "**Peerings**" and click on the option that appears.
 
-3. Notice that a peering has automatically been created. The name is what you provided when the first virtual network peering was configured. 
+1. Notice that a peering has automatically been created. (The name is what you provided when the first virtual network peering was configured). 
 
-4. Notice that the **Peering Status** is **Connected**.
+1. Notice that the **Peering Status** is **Connected**.
 
-5. Click the peering.
+1. Click the peering.
 
     + Notice that **Allow gateway transit** cannot be selected.
 
     + Use the informational icon to review the **Use remote gateways** setting.
 
-6. **Discard** your changes. 
+1. **Discard** your changes. 
 
  
