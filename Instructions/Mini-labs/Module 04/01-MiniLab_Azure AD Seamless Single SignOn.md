@@ -25,23 +25,23 @@ Ensure that the following prerequisites are in place prior to this mini-lab:
 
 ## Enable Azure AD Connect
 
-Enable Seamless SSO through [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity).
+1. Enable Seamless SSO through [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity).
 
-If you're doing a fresh installation of Azure AD Connect, choose the [custom installation path](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom). On the **User sign-in** page, check the **Enable single sign on option**.
+	* If you're doing a fresh installation of Azure AD Connect, choose the [custom installation path](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom). On the **User sign-in** page, check the **Enable single sign on option**.
 
-![Azure AD Connect: User sign-in](../../Linked_Image_Files/SSO_demo_image1.png)
+		![Azure AD Connect: User sign-in](../../Linked_Image_Files/SSO_demo_image1.png)
 
-If you already have an installation of Azure AD Connect, select the **Change user sign-in** page in Azure AD Connect, and then select **Next**.
+	* If you already have an installation of Azure AD Connect, select the **Change user sign-in** page in Azure AD Connect, and then select **Next**.
 
-![Azure AD Connect: Change the user sign-in](../../Linked_Image_Files/SSO_demo_image2.png)
+		![Azure AD Connect: Change the user sign-in](../../Linked_Image_Files/SSO_demo_image2.png)
 
-Continue through the wizard until you get to the **Enable single sign on** page. Provide domain administrator credentials for each Active Directory forest that:
+1. Continue through the wizard until you get to the **Enable single sign on** page. Provide domain administrator credentials for each Active Directory forest that:
 
-* You synchronize to Azure AD through Azure AD Connect.
+	* You synchronize to Azure AD through Azure AD Connect.
 
-* Contains users you want to enable for Seamless SSO.
+	* Contains users you want to enable for Seamless SSO.
 
-After completion of the wizard, Seamless SSO is enabled on your tenant.
+1. After completion of the wizard, Seamless SSO is enabled on your tenant.
 
 ## Verify Seamless SSO is enabled
 
@@ -49,13 +49,13 @@ Follow procedure below to verify that you have enabled Seamless SSO correctly:
 
 1.Sign in to the [Azure Active Directory administrative center](https://aad.portal.azure.com/) with the global administrator credentials for your tenant.
 
-2. Select **Azure Active Directory** in the left pane.
+1. Select **Azure Active Directory** in the left pane.
 
-3. Select **Azure AD Connect**.
+1. Select **Azure AD Connect**.
 
-4. Verify that the Seamless single sign-on feature appears as *Enabled*.
+1. Verify that the Seamless single sign-on feature appears as *Enabled*.
 
-![Azure portal: Azure AD Connect pane](../../Linked_Image_Files/SSO_demo_image3.png)
+	![Azure portal: Azure AD Connect pane](../../Linked_Image_Files/SSO_demo_image3.png)
 
 >Important
 
