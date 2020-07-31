@@ -20,7 +20,7 @@
 
 1. Click on `Create`
 
-1. Repeat this process in order to have 2 virtual networks available
+1. Repeat this process for `virtualnetwork2` in order to have 2 virtual networks available
 
 
 ## Configure VNet peering on the first virtual network
@@ -83,7 +83,7 @@
 
     + Notice after making this selection, **Use remote gateways** is disabled. 
 
-1. **Save** your changes (clicking on the save icon right under the title with the name of your peering)
+1. **Save** your changes (with "enable gateway transit" checkbox checked)
 
 ## Confirm VNet peering on the second virtual network
 
@@ -91,13 +91,13 @@
 
 1. On the search bar right under the virtual network's name, write "**Peerings**" and click on the option that appears.
 
-1. Notice that a peering has automatically been created. (The name is what you provided when the first virtual network peering was configured). 
+1. Notice that a peering has automatically been created. The name is what you provided when the first virtual network peering was configured. 
 
 1. Notice that the **Peering Status** is **Connected**.
 
 1. Click the peering.
 
-    + Notice that **Allow gateway transit** cannot be selected.
+    + Notice that **use remote gateways ** cannot be selected.
 
     + Use the informational icon to review the **Use remote gateways** setting.
 
