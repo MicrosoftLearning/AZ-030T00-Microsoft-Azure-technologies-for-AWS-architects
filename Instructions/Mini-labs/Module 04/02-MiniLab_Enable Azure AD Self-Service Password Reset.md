@@ -12,7 +12,7 @@ This topic demonstrates how to enable self-service password reset.
 
 ## Prerequisites
 
-To complete this mini-lab, you need the following resources and privileges:
+It is expected that this lab will be run as an **instructor demo** since to complete this mini-lab, you need the following resources and privileges:
 
 * A working Azure AD tenant with at least a trial license enabled. 
 
@@ -34,7 +34,7 @@ In this mini-lab, configure SSPR for a set of users in a test group. In the foll
 
 1. From the **Properties** page, under the option `Self service` password reset enabled, choose **Select group**.
 
-1. Search and click your Azure AD group, such as *SSPR-Test-Group*, then choose **Select**.
+1. Search and select your Azure AD group, such as *SSPR-Test-Group*, then choose **Select**.
 
     [![Enable self-service password reset](../../Linked_Image_Files/how_to_setup_sspr_image1.png)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/media/tutorial-enable-sspr/enable-sspr-for-group.png#lightbox)
 
