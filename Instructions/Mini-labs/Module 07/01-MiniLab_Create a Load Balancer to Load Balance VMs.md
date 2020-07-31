@@ -287,4 +287,4 @@ In this section, you create a network security group rule to allow inbound conne
 
 ![IIS Web server](../../Linked_Image_Files/load-balancer-test.png)
 
-To see the Load Balancer distribute traffic across all three VMs, you can customize the default page of each VM's IIS Web server and then force-refresh your web browser from the client machine.
+The Load Balancer distributes traffic across all three VMs, you can customize the default page of each VM's IIS Web server and then force-refresh your web browser from the client machine.

@@ -51,7 +51,7 @@ The **Add role assignment** pane opens.
 
 6. In the **Role** drop-down list, select a role such as **Virtual Machine Contributor**.
 
-7. In the **Select** list, select a user, group, service principal, or managed identity. If you don't see the security principal in the list, you can type in the **Select** box to search the directory for display names, email addresses, and object identifiers.
+7. In the **Select** list, select a user, group, service principal, or managed identity. If  the security principal is not found in the list, you can type in the **Select** box to search the directory for display names, email addresses, and object identifiers.
 
 8. Click **Save** to assign the role.
 

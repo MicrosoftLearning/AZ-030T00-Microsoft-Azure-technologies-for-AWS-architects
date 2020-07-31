@@ -30,7 +30,7 @@ In this mini-lab, we will explore backing up a file share in the Azure portal.
 
 4. Your new vault should be in the same location as the file share. 
 
-5. Select **Create**. It can take several minutes for the Recovery Services vault to be created. Monitor the status notifications in the upper right-hand area of the portal. Once your vault is created, it appears in the list of Recovery Services vaults.
+5. Select **Create**. It can take several minutes for the Recovery Services vault to be created. Monitor the status notifications in the upper right of the portal. Once your vault is created, it appears in the list of Recovery Services vaults.
 
 6. If after several minutes the vault is not added, select **Refresh**.
 

@@ -135,13 +135,13 @@ az aks get-credentials \
     --name $AKS_CLUSTER_NAME
 ```
 
-2. You can see what was deployed by listing all the nodes in your cluster. Use the ```kubectl``` get nodes command to list all the nodes.
+2. Observe everything that was deployed  by listing all the nodes in your cluster. Use the ```kubectl``` get nodes command to list all the nodes.
 
 ```Bash
 kubectl get nodes
 ```
 
-You'll see a list of your cluster's nodes. Here's an example:
+a list of your cluster's nodes is displayed. Here's an example:
 
 ```Ouput
 NAME                                STATUS   ROLES   AGE  VERSION
@@ -162,9 +162,9 @@ Create a namespace for your ratings application.
 kubectl get namespace
 ```
 
-You'll see a list of namespaces similar to this output.
+Observe the list of namespaces similar to this output.
 
-```Ouput
+```Bash
 NAME              STATUS   AGE
 default           Active   1h
 kube-node-lease   Active   1h
@@ -178,7 +178,7 @@ kube-system       Active   1h
 kubectl create namespace ratingsapp
 ```
 
-You'll see a confirmation that the namespace was created.
+Confirmation that the namespace was created is displayed.
 
 ```Output
 namespace/ratingsapp created
