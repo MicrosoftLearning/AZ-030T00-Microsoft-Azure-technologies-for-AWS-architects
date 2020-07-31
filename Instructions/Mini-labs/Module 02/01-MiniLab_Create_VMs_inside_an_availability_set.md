@@ -70,11 +70,11 @@ VMs must be created within the availability set to make sure that they are corre
 
 1. It takes a few minutes to create and configure both VMs. When it finishes, you will have two virtual machines distributed across the underlying hardware.
 
-1. On the searchbar at the top of the window, write **Resource Groups** and select the service of that name
+1. On the search bar at the top of the window, write **Resource Groups** and select the service of that name
 
 1. Once on the resource groups view, select **myResourceGroup**
 
-1. On the window that appears to the right, you will see all the resources contained by `myResourceGroup`. Select **myAvailabilitySet**
+1. From the resources contained by `myResourceGroup`. Select **myAvailabilitySet**
 
 1. You should see how the VMs are distributed across the two fault and update domains.
 
