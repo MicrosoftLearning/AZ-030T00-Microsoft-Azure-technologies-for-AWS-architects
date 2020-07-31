@@ -20,13 +20,14 @@ Prior to this mini-lab we need to set the environment variable `AdminPassword` b
 
     * If it does not says "Bash", click and select `Bash`. Confirm
 
-1. Once the bash is ready, enter the following command
+1. Once the bash is ready, enter the following command using your own password
 
     `
     AdminPassword="myStr0ngPW%%"
     `
 
-    > you may change *myStr0ngPW%%* for any value of your preference, but the password length must be between 12 and 72 characters, and have 1 lower case character, 1 upper case character, 1 number and 1 special character
+    > It is recommnded that you change *myStr0ngPW%%* to a secret value of your preference, the password length must be between 12 and 72 characters, and have 1 lower case character, 1 upper case character, 1 number and 1 special character. 
+    
 1. Confirm that you have set your environment variable with the following command:
 
     `
@@ -75,7 +76,7 @@ VMs must be created within the availability set to make sure that they are corre
 
 1. On the window that appears to the right, you will see all the resources contained by `myResourceGroup`. Select **myAvailabilitySet**
 
-1. ou should see how the VMs are distributed across the two fault and update domains.
+1. You should see how the VMs are distributed across the two fault and update domains.
 
     ![Azure portal UI, showing the new availability set.](../../Linked_Image_Files/myResourceGroups_myAvailabilitySet.png)
 
