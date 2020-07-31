@@ -65,7 +65,7 @@
 
     + Click **Create**. 
 
-1. Wait a few moments until the gateway is successfully created (you'll see a notification when this happens)
+1. Wait a few moments until the gateway is successfully created (a notification is displayed)
 
 ### Allow gateway transit
 
@@ -75,7 +75,7 @@
 
 1. Select the gateway and notice you can perform a health check and review access statistics. 
 
-1. Return to the previous page (clickng on the `X` on the top right) and on the search bar right under the virtual network's name, write "**Peerings**" again and click on the option that appears.
+1. Return to the previous page (clicking on the `X` on the top right) and on the search bar right under the virtual network's name, write "**Peerings**" again and click on the option that appears.
 
     + Select the peering 
     

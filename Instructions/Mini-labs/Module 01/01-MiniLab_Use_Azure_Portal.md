@@ -1,10 +1,10 @@
 # Mini-lab: Use the Azure portal
 
-The Azure portal has several features and services available; let's look at some of the more common areas you'll tend to use. First, take a moment to hover your mouse pointer over each of the icons in the top menu bar for a few seconds each. You should see a tooltip label pop-up for each one. This label is the name of the menu item. You will use these icons later.
+The Azure portal has several features and services available; let's look at some of the more common areas you'll tend to use. First, take a moment to hover your mouse pointer over each of the icons in the top menu bar for a few seconds each. A tooltip label pop-up should be available for each icon. This label is the name of the menu item. You will use these icons later.
 
 ![Screenshot of the Azure portal icon bar](../../Linked_Image_Files/5-portal-icon-bar.png)
 
-If you don't see the top menu bar on a narrower screen, select the ellipses (...) button.
+On a narrower screen the menu may not appear, select the ellipses (...) button.
 
 ![Ellipses button icon](../../Linked_Image_Files/three-points.png)
 
@@ -19,9 +19,9 @@ There are several services you will find in the azure portal.
      ![Screenshot of the portal menu option](../../Linked_Image_Files/5-show-portal-menu.png)
 
 1. Select **All services**. 
-    * Take a couple of minutes to look through the list to see how many services Azure offers.
+    * Take a couple of minutes to review the list of the many services Azure offers.
 
-1. Select **Virtual machines**. (If you don't see it, use the search box in the top left corner of the view).
+1. Select **Virtual machines**. (Alternatively, use the search box in the top left corner of the view).
 
 1. The **Virtual Machines** pane appears. Unless you previously created a virtual machine there will be no results.
 
@@ -49,9 +49,8 @@ There are a variety of management and programming tools included in the created 
 - Database query tools such as sqlcmd
 
 Working with the CLI:
-1. Click the Azure Cloud Shell icon
 
-1. When you launch the shell, you see a Welcome window. 
+1. Click the Azure Cloud Shell icon
 
 1. You can choose either a **Bash** or **PowerShell** environment, depending on your personal preferences. Select any 
     * You can also change the shell at any time through the language drop-down on the left side of the shell.
@@ -111,7 +110,7 @@ Working with the CLI:
 
 1. Select the **Help + support** button.
 
->:heavy_check_mark: **Note:** Support requests can only be created using an active paid subscription, therefore, some of these steps may be different from what you see
+>:heavy_check_mark: **Note:** Support requests can only be created using an active paid subscription, therefore, some of these steps may be different the current UI.
 
 1. In the **Help + support** pane, under **Support**, select **New support request.** To create a new support request, you would fill in the information in each of the following sections:
 
@@ -157,13 +156,13 @@ If at any point on your Azure journey, you have some feedback or want to do a su
 
 ## Profile settings
 
-1. Select on your name in the top right corner of the portal. You will see:
+1. Select on your name in the top right corner of the portal to display profile information:
     - Your Name
     - Your email
     - "My Mycrosoft account" link
     - "Switch Directory" link
     - Sign in with another account, or sign out entirely
-    - An ellipse button. Click on it to see more options 
+    - An ellipse button. Click for more options
     
         ![Ellipse button](../../Linked_Image_Files/three-point-personal-account.png)
 
@@ -180,7 +179,7 @@ If at any point on your Azure journey, you have some feedback or want to do a su
 
 1. From the drop-down menu select **Cost by Service**
 
->:heavy_check_mark: **Note:** You can now see the  cost details on each of your services. If your account is new or if you are using only free services. This page may be empty
+>:heavy_check_mark: **Note:** Provides cost details on each of your services. If your account is new or if you are using only free services. This page may be empty
 
 1. Select the **X** in the top right corner to close the **Costs by service** pane.
 

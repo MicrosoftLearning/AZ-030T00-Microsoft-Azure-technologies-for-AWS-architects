@@ -10,7 +10,7 @@ This document details how to use Bash in Azure Cloud Shell in the Azure portal.
 
     ![Cloud Shell icon](../../Linked_Image_Files/shell-icon.png)
     
-    * If you don't see the Shell icon, it may be under the **ellipses icon**
+    * If the Shell icon is not displaying, use the **ellipses icon**
         ![Ellipses icon](../../Linked_Image_Files/three-points.png)
 
 1. If you are prompted with a message that says **"You have no storage mounted"**:
@@ -98,7 +98,7 @@ Your username on this VM will be your username used in Cloud Shell ($User@Azure:
 
 1. The CLI will ask you `Are you sure you want to continue connecting (yes/no)?` Type **yes** and press return
 
-1. Upon establishing the SSH connection, you should see the Ubuntu welcome prompt.
+1. Upon establishing the SSH connection, the Ubuntu welcome prompt should open.
 
     ![Ubuntu welcome prompt](../../Linked_Image_Files/ubuntu-welcome.png)
 

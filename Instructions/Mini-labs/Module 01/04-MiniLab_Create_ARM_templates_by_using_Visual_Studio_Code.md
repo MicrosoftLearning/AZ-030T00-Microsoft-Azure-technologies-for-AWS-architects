@@ -84,14 +84,14 @@ There are many methods for deploying templates, you will be using the Azure Clou
 
      * If you are prompted with the message **"You have no storage mounted"** maintain the default selection and click **Create storage** (The creation of the storage may take a few seconds)
 
-1. Wait for the terminal to succeed. When it's done you'll see:
+1. Wait for the terminal to complete and it displays:
     `*YourName*@Azure:~$`
 
 1. Choose the **PowerShell** environment in the upper left corner. 
 
 1. Restarting the shell is required when you switch. Click on the **Confirm** button
 
-1. Wait for the terminal to succeed. When it's done you'll see:
+1. Wait for the terminal to complete and it displays:
     `PS /home/*YourName*>`
 
 1. Select the **Upload/download files** icon, and then select **Upload**.
@@ -100,7 +100,7 @@ There are many methods for deploying templates, you will be using the Azure Clou
 
 1. Select the file you saved in the previous section (**azuredeploy.json**). 
 
-1. You'll see a confirmation box on the bottom right of the window
+1. The confirmation is displayed on the bottom right of the window
     * To confirm that your file has uploaded successfully, run the following command
     
         `ls`

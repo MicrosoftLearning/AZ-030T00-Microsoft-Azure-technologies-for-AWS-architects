@@ -62,7 +62,7 @@ Add the *Active Directory for GitHub Enterprise* app to your test tenant and ass
 1. Sign in to the Azure portal as an Azure AD administrator.
 
 1. In the left pane, select **Enterprise applications**.
-    - If you don't see the option on the left pane, you can search for it on the search box on top of the page
+    - Alternatively, you can search for it on the search box on top of the page
 
 1. Select **New application**.
 

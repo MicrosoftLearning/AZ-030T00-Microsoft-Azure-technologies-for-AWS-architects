@@ -67,7 +67,7 @@ In this demonstration, we will create and work with Azure App Service plans.
 
 9. Notice that you can add a **Schedule** and **Specify start/end dates** and **Repeat specific days**.
 
-10. Do you see how you can create different App Service plans for your apps?
+10. Observe how you can create different App Service plans for your apps.
 
 ## Clean up resources
 

@@ -8,7 +8,7 @@ Prior to this mini-lab we need to set the environment variable `AdminPassword` b
 
     ![Azure portal top navigation, with Cloud Shell icon highlighted](../../Linked_Image_Files/shell-icon.png)
 
-    * If you don't see the top menu bar on a narrower screen, select the ellipses (...) button.
+    * If the icon is not displayed on the top menu bar on a narrower screen, select the ellipses (...) button.
 
         ![Ellipses button icon](../../Linked_Image_Files/three-points.png)
 
@@ -76,7 +76,7 @@ VMs must be created within the availability set to make sure that they are corre
 
 1. From the resources contained by `myResourceGroup`. Select **myAvailabilitySet**
 
-1. You should see how the VMs are distributed across the two fault and update domains.
+1. Observe how the VMs are distributed across the two fault and update domains.
 
     ![Azure portal UI, showing the new availability set.](../../Linked_Image_Files/myResourceGroups_myAvailabilitySet.png)
 

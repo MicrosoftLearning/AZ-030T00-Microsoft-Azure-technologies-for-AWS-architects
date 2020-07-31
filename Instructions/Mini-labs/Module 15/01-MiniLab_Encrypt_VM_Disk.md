@@ -24,7 +24,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
     ![ResourceGroup creation screen](../../Linked_Image_Files/portal-qs-vm-creation-storage.png)
 
 1. Select **Review + Create**.
-1. On the **Create a virtual machine** page, you can see the details about the VM you are about to create. When you are ready, select **Create**.
+1. On the **Create a virtual machine** page, you can find the details about the VM you are about to create. When you are ready, select **Create**.
 
 It will take a few minutes for your VM to be deployed. When the deployment is finished, move on to the next section.
 

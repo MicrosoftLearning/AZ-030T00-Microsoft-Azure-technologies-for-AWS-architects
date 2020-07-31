@@ -70,7 +70,7 @@ Configure the Conditional Access policy to require MFA when a user signs in to t
 
 1. Check the box for **Require multi-factor authentication**, then choose **Select**.
 
-    Conditional Access policies can be set to Report-only if you want to see how the configuration would impact users, or Off if you don't want to use the policy right now. Because a test group of users was targeted for this demonstration, let's enable the policy and then test Azure Multi-Factor Authentication.
+    Conditional Access policies can be set to Report-only if you want to observe how the configuration would impact users, or set to Off if you don't want to use the policy right now. Because a test group of users was targeted for this demonstration, let's enable the policy and then test Azure Multi-Factor Authentication.
 
 1. Set the *Enable policy* to **On**.
 

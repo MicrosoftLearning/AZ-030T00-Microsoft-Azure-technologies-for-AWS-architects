@@ -32,6 +32,6 @@ Recommendations give you suggestions on how to better secure your resources. Rec
 
 1. Insert the relevant parameters if necessary, then approve the remediation.
 
-    >:heavy_check_mark: **Note:** It can take several minutes after remediation completes to see the resources in the **Healthy resources** tab. To view the remediation actions, check the activity log.
+    >:heavy_check_mark: **Note:** It can take several minutes after remediation completes to observe the resources in the **Healthy resources** tab. To view the remediation actions, check the activity log.
 
 1. Once completed, a notification appears informing you if the remediation succeeded.
