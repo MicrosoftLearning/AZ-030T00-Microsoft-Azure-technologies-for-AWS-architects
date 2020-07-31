@@ -148,7 +148,7 @@ When the Azure resources are no longer needed, clean up the resources you deploy
 
     ![Options bar on top of resource goup](../../Linked_Image_Files/delete-resource-group-option.png)
 
-1. You'll be asked to **TYPE THE RESOURCE GROUP NAME** to confirm the action (it's the name right under `Home` on the top left of the window)
+1. You'll be asked to **TYPE THE RESOURCE GROUP NAME** to confirm the action (it's the name under `Home` on the top left of the window)
 
     ![Delete confirmation window](../../Linked_Image_Files/delete-confirmation.png)
 
