@@ -27,9 +27,9 @@ There are several services you will find in the azure portal.
 
 1. Select **+ Add**. The **Create a virtual machine** pane appears.
 
-1. Select the **X** in the top right-hand corner to close the **Create a virtual machine** pane.
+1. Select the **X** in the top right corner to close the **Create a virtual machine** pane.
 
-1. Select the **X** in the top right-hand corner to close the **Virtual machines** pane.
+1. Select the **X** in the top right corner to close the **Virtual machines** pane.
 
 1. Select **Microsoft Azure** in the top left-hand side to get back to the home page.
 
@@ -59,7 +59,7 @@ Working with the CLI:
 1. Write
     > az version
 1. The CLI returns basic information about the Cloud Shell CLI Version in JSON format
-1. You can close it now by clicking the **X** on the top right of it
+1. You can close it now by clicking the **X** on the top right.
 
 ## Directory and subscription
 
@@ -71,7 +71,7 @@ Working with the CLI:
 
   There is also a link to learn more about directories and subscriptions.
 
-2. Select the **X** in the top right-hand corner to close the **Directory + subscription** pane.
+2. Select the **X** in the top right corner to close the **Directory + subscription** pane.
 
 ## Notifications pane
 
@@ -83,7 +83,7 @@ Working with the CLI:
 
 1. Select **Dismiss all**. You should have no notifications showing.
 
-1. Select the **X** in the top right-hand corner to close the **Notifications** pane.
+1. Select the **X** in the top right corner to close the **Notifications** pane.
 
 ## Settings
 
@@ -137,7 +137,7 @@ Working with the CLI:
     - Show diagnostics
     - Privacy statement
 
-1. Select the **X** in the top right-hand corner to close the **What's new** pane. You should now be back to the Dashboard.
+1. Select the **X** in the top right corner to close the **What's new** pane. You should now be back to the Dashboard.
 
 ## Feedback pane
 
@@ -157,7 +157,7 @@ If at any point on your Azure journey, you have some feedback or want to do a su
 
 ## Profile settings
 
-1. Select on your name in the top right-hand corner of the portal. You will see:
+1. Select on your name in the top right corner of the portal. You will see:
     - Your Name
     - Your email
     - "My Mycrosoft account" link
@@ -182,6 +182,6 @@ If at any point on your Azure journey, you have some feedback or want to do a su
 
 >:heavy_check_mark: **Note:** You can now see the  cost details on each of your services. If your account is new or if you are using only free services. This page may be empty
 
-1. Select the **X** in the top right-hand corner to close the **Costs by service** pane.
+1. Select the **X** in the top right corner to close the **Costs by service** pane.
 
-1. Select the **X** in the top right-hand corner to close the **Cost Management + Billing - Invoices** page and return to the home page.
+1. Select the **X** in the top right corner to close the **Cost Management + Billing - Invoices** page and return to the home page.
