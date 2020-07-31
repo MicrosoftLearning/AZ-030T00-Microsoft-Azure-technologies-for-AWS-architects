@@ -25,9 +25,9 @@
 
 ## Configure VNet peering on the first virtual network
 
-1. Select the first virtual network. A right pane will appear
+1. Select the first virtual network. 
 
-1. On these right pane, on the search bar right under the virtual network's name, write "**Peerings**" and click on the option that appears.
+1. On the search bar right under the virtual network's name, search for "**Peerings**" and select the "**Peerings**" option.
 
 1. Select **+ Add**. This will take you to a new view
 
