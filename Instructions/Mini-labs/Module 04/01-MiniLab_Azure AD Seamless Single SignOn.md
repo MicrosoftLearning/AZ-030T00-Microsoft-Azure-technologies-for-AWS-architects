@@ -8,7 +8,7 @@ Azure Active Directory (Azure AD) Seamless Single Sign-On (Seamless SSO) automat
 
 ## Prerequisites
 
-Ensure that the following prerequisites are in place prior to this mini-lab:
+It is expected that this lab will be run as an **instructor demo** since the following prerequisites need to be in place prior to this mini-lab:
 
 * **Set up your Azure AD Connect server**: If you use Pass-through Authentication as your sign-in method, no additional prerequisite check is required. If you use password hash synchronization as your sign-in method, and if there is a firewall between Azure AD Connect and Azure AD, ensure that:
 
