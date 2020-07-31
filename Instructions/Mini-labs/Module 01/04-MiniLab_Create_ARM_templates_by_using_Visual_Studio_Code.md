@@ -1,6 +1,6 @@
 # Mini-lab: Create ARM templates by using Visual Studio Code
 
-An **Azure Resource Manager (ARM)** is a service for Azure that provides a management layer that enables you to create, update, and delete resources in your Azure account.
+**Azure Resource Manager (ARM)** is a service for Azure that provides a management layer that enables you to create, update, and delete resources in your Azure account.
 
 In this mini-lab, you will learn how to use Visual Studio Code and the Azure Resource Manager (ARM) Tools extension to create and edit Azure Resource Manager templates. You can create Resource Manager templates in Visual Studio Code without the extension, but the extension provides autocomplete options that simplify template development.
 
@@ -24,7 +24,7 @@ Follow these steps to install the Resource Manager Tools extension:
 
 ## Open the Quickstart template
 
-1. Go to the following address and copy the contents it shows
+1. Go to the following address and copy the contents of the file
 
     ```
     https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json
@@ -101,7 +101,7 @@ There are many methods for deploying templates, you will be using the Azure Clou
 1. Select the file you saved in the previous section (**azuredeploy.json**). 
 
 1. You'll see a confirmation box on the bottom right of the window
-    * To confirm that your file has uploaded successfully, tun the following command
+    * To confirm that your file has uploaded successfully, run the following command
     
         `ls`
     * If the console return **azuredeploy.json** (maybe among other files) the upload was successful
