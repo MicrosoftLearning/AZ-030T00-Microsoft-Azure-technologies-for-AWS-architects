@@ -6,13 +6,13 @@ Azure Multi-Factor Authentication and Conditional Access policies give the flexi
 
 **Prerequisites**
 
-To perform this mini-lab you need the following resources and privileges:
+It is expected that this lab will be run as an **instructor demo** since in order to perform this mini-lab you need the following resources and privileges:
 
 * A working Azure AD tenant with Azure AD Premium or trial license enabled. 
 
 * An account with global administrator privileges.
 
-* A non-administrator user with a password you know, such as test user. You will test the end-user Azure Multi-Factor Authentication experience using this account in this mini-lab. 
+* A non-administrator user with a password you know, such as testuser. You will test the end-user Azure Multi-Factor Authentication experience using this account in this mini-lab. 
 
 
 * A group that the non-administrator user is a member of, such as MFA-Test-Group. You enable Azure Multi-Factor Authentication for this group in this mini-lab. 
