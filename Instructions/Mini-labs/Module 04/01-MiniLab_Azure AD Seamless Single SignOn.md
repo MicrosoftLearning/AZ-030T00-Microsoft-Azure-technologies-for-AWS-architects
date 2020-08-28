@@ -14,7 +14,7 @@ It is expected that this lab will be run as an **instructor demo** since the fol
 
 	* You use version 1.1.644.0 or later of Azure AD Connect.
 	
-	* If your firewall or proxy allows DNS whitelisting, whitelist the connections to the *.msappproxy.net URLs over port 443. 
+	* If your firewall or proxy permits DNS allow lists, allow the connections to the *.msappproxy.net URLs over port 443. 
 
 
 * **Set up domain administrator credentials**: You need to have domain administrator credentials for each Active Directory forest that:
@@ -47,7 +47,7 @@ It is expected that this lab will be run as an **instructor demo** since the fol
 
 Follow procedure below to verify that you have enabled Seamless SSO correctly:
 
-1.Sign in to the [Azure Active Directory administrative center](https://aad.portal.azure.com/) with the global administrator credentials for your tenant.
+1. Sign in to the [Azure Active Directory administrative center](https://aad.portal.azure.com/) with the global administrator credentials for your tenant.
 
 1. Select **Azure Active Directory** in the left pane.
 
