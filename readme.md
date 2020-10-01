@@ -1,7 +1,7 @@
 # AZ-030: Microsoft Azure technologies for AWS architects
 
 
-## Notes on AZ-020 Course & Labs
+## Notes on AZ-030 Course & Labs
 
 This course, AZ-030: Microsoft Azure technologies for AWS architects, is a subset of the AZ-303 course materials, adapted to fit a 4 day course for experienced AWS architects. The course uses mini-labs (located in folder /Instructions/Mini-labs) which give students short and frequent hands on interaction with the Azure Portal and Cloud Shell environments.
 
