@@ -1,4 +1,4 @@
-# Mini-lab:Create an Azure SQL Database Managed Instance
+# Mini-lab: Create an Azure SQL Database Managed Instance
 
 This mini-lab walks you through how to create an Azure SQL Database managed instance in Azure portal.
 
@@ -23,16 +23,6 @@ The following steps show you how to create a managed instance:
 * Fill out mandatory information required on the **Basics** tab.
 
 !["Basics" tab for creating a managed instance](../../Linked_Image_Files/demo_managed_sql_image2.png)
-
-Use the table below as a reference for information required at this tab.
-
-| Setting | Suggested value | Description  |
-|---------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Virtual network | Select either Create new virtual network or a valid virtual network and subnet. | If a network or subnet is unavailable, it must be modified to satisfy the network requirements before you select it as a target for the new managed instance. For information about the requirements for configuring the network environment for a managed instance, see Configure a virtual network for a managed instance. |
-| Connection type | Choose between a proxy and a redirect connection type. | For more information about connection types, see Azure SQL Database connection policy. |
-| Public endpoint | Select Enable. | For a managed instance to be accessible through the public data endpoint, you need to enable this option. |
-| Allow access from (if Public endpoint is enabled) | Select one of the options. | The portal experience enables configuring a security group with a public endpoint. <br>  |
-
 
 * Select **Configure Managed Instance** to size compute and storage resources and to review the pricing tiers. Use the sliders or text boxes to specify the amount of storage and the number of virtual cores. When you're finished, select **Apply** to save your selection.
 
