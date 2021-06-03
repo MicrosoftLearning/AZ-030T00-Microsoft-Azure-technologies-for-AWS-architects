@@ -1,22 +1,22 @@
-# Mini-lab: Create a Load Balancer to Load Balance VMs
+# Mini-lab: Create a load balancer to load balance VMs
 
 Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
 
-## Create a Load Balancer
+## Create a load balancer
 
-In this mini-lab, you create a Load Balancer that helps load balance virtual machines. You can create a public Load Balancer or an internal Load Balancer. When you create a public Load Balancer, you must also create a new public IP address that is configured as the frontend (named as LoadBalancerFrontend by default) for the Load Balancer.
+In this mini-lab, you create a load balancer that helps load balance virtual machines. You can create a public load balancer or an internal load balancer. When you create a public load balancer, you must also create a new public IP address that is configured as the frontend (named as LoadBalancerFrontend by default) for the load balancer.
 
 1. Select **+ Create a resource**, type *load balancer*.
 
-![Create a Standard Load Balancer](../../Linked_Image_Files/create-standard-load-balancer.png).
+![Create a Standard load balancer](../../Linked_Image_Files/create-standard-load-balancer.png).
 
 2. Select **Create**.
 
-![Create a Standard Load Balancer, select **Create**.](../../Linked_Image_Files/create-load-balancer-start.png).
+![Create a Standard load balancer, select **Create**.](../../Linked_Image_Files/create-load-balancer-start.png).
 
 3. In the **Basics** tab of the **Create load balancer** page, enter or select the following information, accept the defaults for the remaining settings, and then select **Review + create**:
 
-![Create a Standard Load Balancer configuration.](../../Linked_Image_Files/load_balancer_3.png).
+![Create a Standard load balancer configuration.](../../Linked_Image_Files/load_balancer_3.png).
 
 | Setting | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,19 +28,19 @@ In this mini-lab, you create a Load Balancer that helps load balance virtual mac
 | SKU | Select **Standard** or **Basic**. Microsoft recommends Standard for production workloads. |
 | Public IP address | Select **Create new**. If you have an existing Public IP you would like to use, select **Use existing** |
 | Public IP address name | Type *myPublicIP* in the text box.   Use ```-SKU Basic``` to create a Basic Public IP. Basic Public IPs are not compatible with **Standard** load balancer. Microsoft recommends using **Standard** for production workloads. |
-| Availability zone | Type *Zone-redundant* to create a resilient Load Balancer. To create a zonal Load Balancer, select a specific zone from 1, 2, or 3 |
+| Availability zone | Type *Zone-redundant* to create a resilient load balancer. To create a zonal load balancer, select a specific zone from 1, 2, or 3 |
 
 >**Important**
 This mini-lab assumes that Standard SKU is chosen during the SKU selection process above.
 
 
-## Create Load Balancer resources
+## Create load balancer resources
 
-In this section, you will configure Load Balancer settings for a backend address pool, a health probe, and specify a balancer rule.
+In this section, you will configure load balancer settings for a backend address pool, a health probe, and specify a balancer rule.
 
 ## Create a Backend pool
 
-To distribute traffic to the VMs, a backend address pool contains the IP addresses of the virtual (NICs) connected to the Load Balancer. Create the backend address pool myBackendPool to include virtual machines for load-balancing internet traffic.
+To distribute traffic to the VMs, a backend address pool contains the IP addresses of the virtual (NICs) connected to the load balancer. Create the backend address pool myBackendPool to include virtual machines for load-balancing internet traffic.
 
 1. Select **All services** from the left-hand menu, select **All resources**, and then select **myLoadBalancer** from the resources list.
 
@@ -50,7 +50,7 @@ To distribute traffic to the VMs, a backend address pool contains the IP address
 
 ## Create a health probe
 
-To allow the Load Balancer to monitor the status of your app, you use a health probe. The health probe dynamically adds or removes VMs from the Load Balancer rotation based on their response to health checks. Create a health probe myHealthProbe to monitor the health of the VMs.
+To allow the load balancer to monitor the status of your app, you use a health probe. The health probe dynamically adds or removes VMs from the load balancer rotation based on their response to health checks. Create a health probe myHealthProbe to monitor the health of the VMs.
 
 1. Select **All services** from the left-hand menu, select **All resources**, then select **myLoadBalancer** from the resources list.
 
